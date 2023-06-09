@@ -1,0 +1,18 @@
+{
+  "name": "evakontech-site",
+  "version": "1.0.0",
+  "description": "evakon: Empowering Remote Excellence, Redefining Collaboration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "cd client; npm start",
+    "node": "cd api; npm run dev",
+    "dev": "concurrently \"npm run react\" \"npm run node\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "prettier": "^2.8.8"
+  }
+}
