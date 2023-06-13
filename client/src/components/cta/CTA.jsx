@@ -2,7 +2,7 @@ import React from 'react'
 
 export const CTA = () => {
     return (
-        <section className="py-10">
+        <section className="py-20 bg-gray-100">
             <div className="mx-auto max-w-7xl">
                 <div className="mx-auto max-w-2xl  text-center">
                     <div className="isolate flex justify-center -space-x-2">
@@ -29,7 +29,7 @@ export const CTA = () => {
                     </div>
 
                     <h2 className="mt-8 text-3xl font-bold leading-tight text-black sm:text-4xl lg:mt-12 lg:text-5xl">
-                        Join <span className="border-b-8 border-yellow-300">10+</span> other developers
+                        Join <span className="border-b-8 text-[#1563cb] border-yellow-300">8+</span> other developers
                     </h2>
                     <p className="mx-auto mt-6 max-w-xl text-base text-gray-600 md:mt-10 lg:text-xl">
                         We are committed to promoting the remote work in Nepal's experience and shaping the future of the software industry.

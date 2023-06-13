@@ -7,6 +7,7 @@ import { Footer } from '../footer/footer.component';
 import { Pricing } from '../pricing-section/pricing-section.component';
 import { Feature } from '../feature/Feature.jsx';
 import { CTA } from '../cta/CTA.jsx';
+import { FAQs } from '../faq/FAQs.jsx';
 
 export const Home = () => {
     return (
@@ -17,6 +18,7 @@ export const Home = () => {
             <BusinessGrowthSection />
             <SmartWorkSection />
             <Pricing />
+            <FAQs />
             <CTA />
             <Footer />
         </>

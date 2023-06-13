@@ -2,7 +2,7 @@ import React from 'react'
 
 export const SmartWorkSection = () => {
     return (
-        <section className="py-16">
+        <section className="py-16 mt-10 mb-10">
             <div className="container-width">
 
                 <div className="flex items-center lg:flex-row flex-col gap-y-10">
@@ -30,9 +30,7 @@ export const SmartWorkSection = () => {
                         <div className="flex flex-col gap-y-4">
                             <div className="flex gap-x-10">
 
-                                <div className="text-blue-600">
-                                    <i className="fa-solid fa-angles-right text-lg mt-1"></i>
-                                </div>
+
 
                                 <div>
                                     <p className="font-bold text-lg">Digital Agency & Marketing</p>
@@ -45,9 +43,7 @@ export const SmartWorkSection = () => {
 
                             <div className="flex gap-x-10">
 
-                                <div className="text-blue-600">
-                                    <i className="fa-solid fa-angles-right text-lg mt-1"></i>
-                                </div>
+
 
                                 <div>
                                     <p className="font-bold text-lg">Planning To Startup</p>
@@ -60,9 +56,7 @@ export const SmartWorkSection = () => {
 
                             <div className="flex gap-x-10">
 
-                                <div className="text-blue-600">
-                                    <i className="fa-solid fa-angles-right text-lg mt-1"></i>
-                                </div>
+
 
                                 <div>
                                     <p className="font-bold text-lg">Content Management</p>
@@ -71,12 +65,6 @@ export const SmartWorkSection = () => {
                                     </p>
                                 </div>
 
-                            </div>
-
-
-
-                            <div className="btn-with-purpule-border text-center mt-4">
-                                <button>Learn More</button>
                             </div>
                         </div>
 

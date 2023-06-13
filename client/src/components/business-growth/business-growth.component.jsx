@@ -1,4 +1,3 @@
-
 export const BusinessGrowthSection = () => {
     return (
         <section className="bg-gray-100 py-16">
@@ -7,30 +6,25 @@ export const BusinessGrowthSection = () => {
                 <div className="flex items-center lg:flex-row flex-col gap-y-10">
 
                     {/* Content */}
-                    <div className="w-full lg:w-4/5 m-auto  px-5">
+                    <div className="w-full lg:w-4/5 m-auto px-5">
 
                         {/* Content title */}
                         <div>
                             <p className="text-4xl sm:text-6xl font-extrabold text-center">
-                                we help to grow your business.
+                                We Help Your Business Grow
                             </p>
                             <p className="mt-9 text-slate-600 text-center mb-10">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
+                                At Evakon Tech, we specialize in leveraging software solutions to drive business growth and success. Our team of experts is dedicated to helping you achieve your goals.
                             </p>
                         </div>
 
-                        {/* Conent list */}
+                        {/* Content list */}
                         <div className="flex flex-col gap-y-4">
                             <div className="flex gap-x-10">
-
-                                <div className="text-purple-700">
-                                    <i className="fa-solid fa-angles-right text-lg mt-1"></i>
-                                </div>
-
                                 <div>
-                                    <p className="font-bold text-lg">Online Presence</p>
+                                    <p className="font-bold text-lg">Custom Software Development</p>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio.
+                                        We build tailor-made software solutions that align with your specific business needs and processes, empowering you to streamline operations, enhance productivity, and drive innovation.
                                     </p>
                                 </div>
 
@@ -38,14 +32,12 @@ export const BusinessGrowthSection = () => {
 
                             <div className="flex gap-x-10">
 
-                                <div className="text-purple-700">
-                                    <i className="fa-solid fa-angles-right text-lg mt-1"></i>
-                                </div>
+
 
                                 <div>
-                                    <p className="font-bold text-lg">Online Presence</p>
+                                    <p className="font-bold text-lg">Digital Transformation</p>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio.
+                                        Our digital transformation services enable you to embrace cutting-edge technologies and digital trends, helping you stay ahead of the competition, improve customer experiences, and unlock new revenue streams.
                                     </p>
                                 </div>
 
@@ -53,28 +45,21 @@ export const BusinessGrowthSection = () => {
 
                             <div className="flex gap-x-10">
 
-                                <div className="text-purple-700">
-                                    <i className="fa-solid fa-angles-right text-lg mt-1"></i>
-                                </div>
-
                                 <div>
-                                    <p className="font-bold text-lg">Online Presence</p>
+                                    <p className="font-bold text-lg">Cloud Solutions</p>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, distinctio.
+                                        We provide cloud-based solutions that enhance scalability, reliability, and security. By leveraging cloud technologies, we enable you to optimize resources, reduce costs, and accelerate business growth.
                                     </p>
                                 </div>
 
                             </div>
 
 
-                            <div className="btn-with-purpule-border text-center mt-4">
-                                <button>Learn More</button>
-                            </div>
+
                         </div>
 
                     </div>
 
-                    {/* Image */}
                     <div className="w-full lg:w-1/2 px-5 text-center">
                         <img src="https://theme-land.com/digimx/demo/assets/img/content/content_thumb.png" alt="Company" className="w-full" />
                     </div>

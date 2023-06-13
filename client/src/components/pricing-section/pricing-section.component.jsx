@@ -1,14 +1,13 @@
-
 export const Pricing = () => {
     return (
         <section className="relative overflow-hidden py-16 bg-gray-100">
             <div className="relative container-width px-4">
                 <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
-                    <h1 className="mb-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
+                    <h1 className="mb-8 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
                         Our Pricing Plans
                     </h1>
                     <p className="text-lg text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, blanditiis.
+                        Choose the membership plan that suits your needs. Gain access to our premium features, exceptional customer support, ad-free experience, and more.
                     </p>
                 </div>
                 <div className="mx-auto max-w-5xl">
@@ -37,25 +36,14 @@ export const Pricing = () => {
                                         <li className="mb-6 flex items-center">
                                             <span className="ml-2 text-sm text-gray-900">Component Library</span>
                                         </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">All limited links</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">Own analytics platform</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">Chat support</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">Optimize hashtags</span>
-                                        </li>
+
                                         <li className="mb-6 flex items-center">
                                             <span className="ml-2 text-sm text-gray-900">Unlimited users</span>
                                         </li>
                                     </ul>
                                     <button
                                         type="button"
-                                        className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                        className="w-full rounded-md border border-black px-3 py-2 text-md font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                                     >
                                         Choose Plan
                                     </button>
@@ -65,7 +53,7 @@ export const Pricing = () => {
                         <div className="-mt-4 w-full lg:-mt-0 lg:w-1/3">
                             <div className="pt-22 relative mx-auto max-w-sm rounded-lg bg-[#1563cb] px-10 pb-16 ">
                                 <div className="absolute left-1/2 top-0 inline-flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center rounded-full bg-white p-2">
-                                    <div className="flex-shrink-0 rounded-full bg-[#1563cb] px-5 py-4 text-sm font-semibold uppercase text-white">
+                                    <div className="flex-shrink-0 rounded-full bg-black px-5 py-4 text-sm font-semibold uppercase text-white">
                                         Most Popular
                                     </div>
                                 </div>
@@ -91,25 +79,14 @@ export const Pricing = () => {
                                         <li className="mb-6 flex items-center">
                                             <span className="ml-2 text-sm text-white">Component Library</span>
                                         </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-white">All limited links</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-white">Own analytics platform</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-white">Chat support</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-white">Optimize hashtags</span>
-                                        </li>
+
                                         <li className="mb-6 flex items-center">
                                             <span className="ml-2 text-sm text-white">Unlimited users</span>
                                         </li>
                                     </ul>
                                     <button
                                         type="button"
-                                        className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                                        className="w-full rounded-md bg-white px-3 py-2 text-md font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                                     >
                                         Choose Plan
                                     </button>
@@ -140,25 +117,14 @@ export const Pricing = () => {
                                         <li className="mb-6 flex items-center">
                                             <span className="ml-2 text-sm text-gray-900">Component Library</span>
                                         </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">All limited links</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">Own analytics platform</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">Chat support</span>
-                                        </li>
-                                        <li className="mb-6 flex items-center">
-                                            <span className="ml-2 text-sm text-gray-900">Optimize hashtags</span>
-                                        </li>
+
                                         <li className="mb-6 flex items-center">
                                             <span className="ml-2 text-sm text-gray-900">Unlimited users</span>
                                         </li>
                                     </ul>
                                     <button
                                         type="button"
-                                        className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                        className="w-full rounded-md border border-black px-3 py-2 text-md font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                                     >
                                         Choose Plan
                                     </button>
