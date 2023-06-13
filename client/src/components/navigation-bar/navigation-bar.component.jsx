@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 //CSS
 import './navigation-bar.styles.css';
+import {LuSend} from 'react-icons/lu'
 
 
 export const NavigationBar = () => {
@@ -25,17 +26,18 @@ export const NavigationBar = () => {
                         <div>
                             <ul className="flex gap-x-7 text-lg font-semibold text-white">
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="#">About</Link></li>
-                                <li><Link to="#">Services</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/services">Services</Link></li>
                                 <li><Link to="/career">Career</Link></li>
-                                <li><Link to="#">Blog</Link></li>
-                                <li><Link to="#">Hire Developer</Link></li>
+                                <li><Link to="/blog">Blog</Link></li>
+                                <li><Link to="/hire-developer">Hire Developer</Link></li>
                             </ul>
                         </div>
 
-                        <div className="common-btn-style">
-                            <button>
-                                Request Project
+                        <div className="common-btn-style ">
+                            <button className="flex items-center">
+                                <LuSend className="mr-2"/>
+                                Request a Project
                             </button>
                         </div>
 

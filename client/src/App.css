@@ -8,8 +8,11 @@
     padding: 10px 0;
     color: white;
     border-radius: 34px;
-    width: 170px;
+    width: 190px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .common-btn-style button:hover {
