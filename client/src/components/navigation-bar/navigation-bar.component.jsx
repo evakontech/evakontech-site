@@ -80,11 +80,11 @@ export const NavigationBar = () => {
                             <div className="mt-12">
                                 <ul className="flex flex-col gap-y-3 text-xl font-semibold text-black">
                                     <li><Link to="/">Home</Link></li>
-                                    <li><Link to="#">About</Link></li>
+                                    <li><Link to="/about">About</Link></li>
                                     <li><Link to="#">Services</Link></li>
-                                    <li><Link to="#">Career</Link></li>
-                                    <li><Link to="#">Blog</Link></li>
-                                    <li><Link to="#">Hire Developer</Link></li>
+                                    <li><Link to="/career">Career</Link></li>
+                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li><Link to="/hire-developer">Hire Developer</Link></li>
                                 </ul>
 
                                 <div className="mob-nav-contact-btn common-btn-style">
