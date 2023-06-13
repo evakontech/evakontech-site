@@ -61,12 +61,12 @@ export const Footer = () => {
 
             <hr className="my-5" />
 
-            <div className="mx-auto max-w-6xl items-center justify-center md:justify-between px-4 md:flex lg:px-0">
+            <div className="mx-auto max-w-6xl items-center justify-center md:justify-between px-4 py-3 md:flex lg:px-0">
                 <div className="inline-flex items-center">
-                    <span className="ml-4 text-2xl font-bold">Evakon</span>
+                    <span className="ml-4 text-2xl font-bold">Evakon Tech</span>
                 </div>
                 <div className="mt-4 md:mt-0">
-                    <p className="text-sm font-medium text-gray-500">© {new Date().getFullYear()} Evakon. All rights reserved.</p>
+                    <p className="text-sm font-medium text-gray-500">© {new Date().getFullYear()} Evakon Tech. All rights reserved.</p>
                 </div>
             </div>
         </footer>

@@ -5,12 +5,14 @@ import { BusinessGrowthSection } from '../business-growth/business-growth.compon
 import { SmartWorkSection } from '../smart-work/smart-work-section.component';
 import { Footer } from '../footer/footer.component';
 import { Pricing } from '../pricing-section/pricing-section.component';
+import { Feature } from '../feature/Feature.jsx';
 
 export const Home = () => {
     return (
         <>
             <WelcomeArea />
             <CollaboratingCompaniesList />
+            <Feature />
             <BusinessGrowthSection />
             <SmartWorkSection />
             <Pricing />

@@ -63,9 +63,9 @@ export const Pricing = () => {
                             </div>
                         </div>
                         <div className="-mt-4 w-full lg:-mt-0 lg:w-1/3">
-                            <div className="pt-22 relative mx-auto max-w-sm rounded-lg bg-black px-10 pb-16 ">
+                            <div className="pt-22 relative mx-auto max-w-sm rounded-lg bg-[#1563cb] px-10 pb-16 ">
                                 <div className="absolute left-1/2 top-0 inline-flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center rounded-full bg-white p-2">
-                                    <div className="flex-shrink-0 rounded-full bg-black px-5 py-4 text-sm font-semibold uppercase text-white">
+                                    <div className="flex-shrink-0 rounded-full bg-[#1563cb] px-5 py-4 text-sm font-semibold uppercase text-white">
                                         Most Popular
                                     </div>
                                 </div>
