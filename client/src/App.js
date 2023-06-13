@@ -1,9 +1,10 @@
 import './App.css';
+import Home from './components/home/home.component';
 
 const App = () => {
   return (
-    < >
-      <p className='text-3xl font-bold  text-center'>Hello Evakon.Tech</p>
+    <>
+      <Home />
     </>
   );
 }
