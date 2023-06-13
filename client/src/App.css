@@ -19,8 +19,29 @@
     padding: 11px 0;
 }
 
+.btn-with-purpule-border button {
+    border: 1px solid #5901FF;
+    padding: 10px 0;
+    color: black;
+    border-radius: 34px;
+    width: 170px;
+    font-weight: 600;
+}
+
+.btn-with-purpule-border button:hover {
+    background-color: #5901FF;
+    color: white;
+    cursor: pointer;
+}
+
 @media (max-width:768px) {
     .container-width {
         width: 95%;
+    }
+}
+
+@media (max-width:1280px) {
+    .container-width {
+        width: 90%;
     }
 }
