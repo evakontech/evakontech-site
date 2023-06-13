@@ -8,7 +8,7 @@ export const CollaboratingCompaniesList = () => {
           we are working with
         </p>
         <p className="mt-9 text-slate-600">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
+          We drive digital transformation for visionary companies and clients, propelling businesses to new heights. Experience our innovative solutions, where expertise meets elegance on the path to success.
         </p>
       </div>
 

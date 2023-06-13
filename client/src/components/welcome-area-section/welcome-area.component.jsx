@@ -12,11 +12,11 @@ export const WelcomeArea = () => {
                 <div className='welcome-area-text flex flex-col items-center justify-center text-center'>
 
                     <h1 className='text-4xl sm:text-6xl text-white font-extrabold '>
-                        Lorem ipsum dolor sit amet, consectetur
+                        Crafting Intuitive Interfaces
                     </h1>
 
                     <p className='my-7 text-white '>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nihil tenetur minus quidem est deserunt molestias accusamus harum ullam tempore debitis et, expedita, repellat delectus aspernatur neque itaque qui quod.
+                        Your ultimate partner in remote excellence. We're on a mission to revolutionize the software industry by promoting remote work, fostering collaboration, and igniting innovation. Step into a world of limitless possibilities and shape the future together!
                     </p>
 
                     <div className='flex flex-col sm:flex-row justify-center items-center gap-4 common-btn-style'>
@@ -25,7 +25,7 @@ export const WelcomeArea = () => {
                         </button>
 
                         <button>
-                            contact us
+                            Contact Us
                         </button>
                     </div>
 
