@@ -1,6 +1,7 @@
 import './App.css';
-import Home from './components/home/home.component';
-
+import { Routes, Route } from 'react-router-dom';
+import { Home } from './components/home/home.component.jsx';
+import Career from './components/career/Career';
 const App = () => {
   return (
     <>
