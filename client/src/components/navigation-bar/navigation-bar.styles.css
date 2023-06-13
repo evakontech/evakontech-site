@@ -1,0 +1,40 @@
+.mob-nav-menu-wrapper {
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 22;
+}
+
+.mob-nav-menu-wrapper .mob-nav-menu {
+    height: 100%;
+    transition: 1s;
+    width: 500px;
+    background: white !important;
+}
+
+.close-nav {
+    margin-right: -600px;
+}
+
+.open-nav {
+    margin-right: 0px;
+}
+
+.mob-nav-contact-btn button {
+    border: 1px solid black;
+    color: black;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.mob-nav-contact-btn button:hover {
+    color: white;
+}
+
+@media (max-width:640px) {
+    .mob-nav-menu-wrapper .mob-nav-menu {
+        width: 100%;
+    }
+}

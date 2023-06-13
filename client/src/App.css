@@ -1,4 +1,26 @@
 .container-width {
     margin: auto;
-    width: 70%;
+    width: 80%;
+}
+
+.common-btn-style button {
+    border: 1px solid white;
+    padding: 10px 0;
+    color: white;
+    border-radius: 34px;
+    width: 170px;
+    font-weight: 600;
+}
+
+.common-btn-style button:hover {
+    background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%);
+    cursor: pointer;
+    border: none;
+    padding: 11px 0;
+}
+
+@media (max-width:768px) {
+    .container-width {
+        width: 95%;
+    }
 }
