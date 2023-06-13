@@ -17,7 +17,7 @@ export const NavigationBar = () => {
                 <div className="flex justify-between items-center">
 
                     <div className="logo font-semibold text-3xl text-white">
-                        LOGO
+                        Evakon Tech
                     </div>
 
                     <div className="nav-bar flex items-center gap-x-20">
@@ -27,7 +27,7 @@ export const NavigationBar = () => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="#">About</Link></li>
                                 <li><Link to="#">Services</Link></li>
-                                <li><Link to="#">Career</Link></li>
+                                <li><Link to="/career">Career</Link></li>
                                 <li><Link to="#">Blog</Link></li>
                                 <li><Link to="#">Hire Developer</Link></li>
                             </ul>
