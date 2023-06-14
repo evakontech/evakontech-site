@@ -1,5 +1,8 @@
 import React from 'react'
 import { Code } from 'lucide-react'
+import {FaRegLightbulb} from 'react-icons/fa'
+import {MdOutlineDesignServices} from 'react-icons/md'
+import {HiOutlineRocketLaunch} from 'react-icons/hi2'
 
 export const Feature = () => {
     return (
@@ -17,7 +20,7 @@ export const Feature = () => {
             <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
                 <div>
                     <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
-                        <Code className="h-9 w-9 text-white" />
+                        <FaRegLightbulb className="h-9 w-9 text-white" />
                     </div>
                     <h3 className="mt-8 text-2xl font-semibold text-black">Idea & Analysis</h3>
                     <p className="mt-4 text-md text-gray-600">
@@ -26,7 +29,7 @@ export const Feature = () => {
                 </div>
                 <div>
                     <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
-                        <Code className="h-9 w-9 text-white" />
+                        <MdOutlineDesignServices className="h-9 w-9 text-white" />
                     </div>
                     <h3 className="mt-8 text-2xl font-semibold text-black">Designing</h3>
                     <p className="mt-4 text-md text-gray-600">
@@ -44,7 +47,7 @@ export const Feature = () => {
                 </div>
                 <div>
                     <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
-                        <Code className="h-9 w-9 text-white" />
+                        <HiOutlineRocketLaunch className="h-9 w-9 text-white" />
                     </div>
                     <h3 className="mt-8 text-2xl font-semibold text-black">Testing & Launching</h3>
                     <p className="mt-4 text-md text-gray-600">

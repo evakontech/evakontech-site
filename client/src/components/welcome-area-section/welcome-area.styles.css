@@ -85,6 +85,14 @@
     transform: translateX(-50%);
     animation: mouseScroll 1.5s infinite;
 }
+.home-btn-primary{
+    border: 1px solid white !important;
+    background-color: #fff;
+    color: rgba(21, 99, 203, 0.9) !important;
+    font-size: 1.1rem;
+
+}
+
 
 @keyframes mouseScroll {
     0% {

@@ -23,7 +23,7 @@ export const WelcomeArea = () => {
                         Your ultimate partner in remote excellence. We're on a mission to revolutionize the software industry by promoting remote work, fostering collaboration, and igniting innovation. Step into a world of limitless possibilities and shape the future together!
                     </p>
                     <div className='flex flex-col sm:flex-row justify-center items-center gap-4 common-btn-style'>
-                        <button>
+                        <button className='home-btn-primary'>
                             Start a project
                         </button>
                         <button>
