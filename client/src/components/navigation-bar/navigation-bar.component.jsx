@@ -29,7 +29,7 @@ export const NavigationBar = () => {
                                 <li><Link to="/about">About</Link></li>
                                 <li><Link to="/services">Services</Link></li>
                                 <li><Link to="/career">Career</Link></li>
-                                <li><Link to="/blog">Blog</Link></li>
+                                <li><Link to="/portfolio">Portfolio</Link></li>
                                 <li><Link to="/hire-developer">Hire Developer</Link></li>
                             </ul>
                         </div>
