@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 * {
-  font-style: "Roboto";
+  font-style: 'Roboto', sans-serif;
 }
