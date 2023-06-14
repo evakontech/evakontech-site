@@ -63,11 +63,11 @@ export const NavigationBar = () => {
 
                     <div className={`mob-nav-menu-wrapper flex justify-end ${displayMobNav ? "w-full" : "w-0 overflow-hidden m-0 p-0"}`}>
 
-                        <div className={`${displayMobNav ? "open-nav" : "close-nav"} mob-nav-menu bg-white py-5 px-7 box-border`}>
+                        <div className={`${displayMobNav ? "open-nav" : "close-nav"} mob-nav-menu bg-white py-5 px-9 box-border`}>
 
                             <div className="flex justify-between items-center">
 
-                                <p className="text-base font-bold">Menu</p>
+                                <p className="text-base font-bold">evakon.</p>
 
                                 <button
                                     className="border border-solid border-black w-7 h-7 rounded-full text-xs"
@@ -79,14 +79,14 @@ export const NavigationBar = () => {
                             </div>
 
 
-                            <div className="mt-12">
-                                <ul className="flex flex-col gap-y-3 text-xl font-semibold text-black">
+                            <div className="mt-12 mob-nav-menu-links flex flex-col align-center justify-center">
+                                <ul className="flex flex-col mob-menu-links gap-y-7  font-bold text-black">
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About</Link></li>
                                     <li><Link to="#">Services</Link></li>
                                     <li><Link to="/career">Career</Link></li>
                                     <li><Link to="/portfolio">Portfolio</Link></li>
-                                    <li><Link to="/hire-developer">Hire Developer</Link></li>
+                                    <li><Link to="/hire-developer">Hire a Developer</Link></li>
                                 </ul>
 
                                 <div className="mob-nav-contact-btn common-btn-style">
