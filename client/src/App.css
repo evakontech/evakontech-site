@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .container-width {
     margin: auto;
     width: 80%;
@@ -23,7 +29,7 @@
 }
 
 .btn-with-purpule-border button {
-    border: 1px solid #5901FF;
+    border: 1px solid #5901ff;
     padding: 10px 0;
     color: black;
     border-radius: 34px;
@@ -32,18 +38,18 @@
 }
 
 .btn-with-purpule-border button:hover {
-    background-color: #5901FF;
+    background-color: #5901ff;
     color: white;
     cursor: pointer;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .container-width {
         width: 95%;
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     .container-width {
         width: 90%;
     }
