@@ -20,7 +20,10 @@ body {
 }
 
 .common-btn-style button:hover {
-  background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%);
+  /* background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%); */
+  color: #1563CB !important;
+  border: 2px solid #1563CB !important;
+  background-color: white;
   cursor: pointer;
   border: none;
   padding: 11px 0;

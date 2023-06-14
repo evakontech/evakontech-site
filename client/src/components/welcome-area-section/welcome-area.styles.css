@@ -92,6 +92,12 @@
     font-size: 1.1rem;
 
 }
+/* .home-btn-primary:hover{
+    border: 1px solid white;
+    color: white !important;
+    background-color: none !important;
+
+} */
 
 
 @keyframes mouseScroll {
