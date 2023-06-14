@@ -1,6 +1,4 @@
-body {
-  font-style: "Roboto";
-}
+
 
 .container-width {
   margin: auto;
@@ -8,7 +6,7 @@ body {
 }
 
 .common-btn-style button {
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 10px 0;
   color: white;
   border-radius: 34px;
@@ -22,11 +20,12 @@ body {
 .common-btn-style button:hover {
   /* background: linear-gradient(-45deg, #af52ed 0%, #8830df 100%); */
   color: #1563CB !important;
-  border: 2px solid #1563CB !important;
+  /* border: 2px solid #1563CB !important; */
   background-color: white;
   cursor: pointer;
-  border: none;
-  padding: 11px 0;
+  /* border: none; */
+  /* padding: 11px 0; */
+  /* transform: scale(1.1rem) !important; */
 }
 
 .btn-with-purpule-border button {
