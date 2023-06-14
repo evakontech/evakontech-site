@@ -48,7 +48,7 @@ export const FAQs = () => {
                             </div>
                         )}
                     </div>
-                    {Array.from({ length: 6 }).map((_, i) => (
+                    {Array.from({ length: 5 }).map((_, i) => (
                         <div
                             key={i}
                             className={`cursor-pointer rounded-md border border-gray-400 transition-all duration-200 ${expandedIndex === i + 1 ? 'border-blue-500' : ''}`}
@@ -81,11 +81,7 @@ export const FAQs = () => {
                                         How do software company interviews typically work?
                                     </span>
                                 )}
-                                {expandedIndex === i + 1 ? (
-                                    <ChevronUp className="h-5 w-5 text-gray-500" />
-                                ) : (
-                                    <ChevronDown className="h-5 w-5 text-gray-500" />
-                                )}
+                                
                             </button>
                             {expandedIndex === i + 1 && (
                                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
