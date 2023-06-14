@@ -31,7 +31,7 @@ export const Carousel = () => {
                         slidesPerView: 2,
                         spaceBetween: 20
                     },
-                   
+
                     640: {
                         slidesPerView: 3,
                         spaceBetween: 40
@@ -40,25 +40,25 @@ export const Carousel = () => {
             >
                 <SwiperSlide>
 
-                    <div className="w-44 h-32 border rounded-sm">
+                    <div className="w-44 h-32  rounded-sm">
                         <img src="https://theme-land.com/digimx/demo/assets/img/brand/brand_partner_1.png" alt="Company Name" className=" w-full object-contain h-full" />
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="w-44 h-32 border rounded-sm">
+                    <div className="w-44 h-32  rounded-sm">
                         <img src="https://theme-land.com/digimx/demo/assets/img/brand/brand_partner_2.png" alt="Company Name" className=" w-full object-contain h-full" />
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="w-44 h-32 border rounded-sm">
+                    <div className="w-44 h-32  rounded-sm">
                         <img src="https://theme-land.com/digimx/demo/assets/img/brand/brand_partner_3.png" alt="Company Name" className=" w-full object-contain h-full" />
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className="w-44 h-32 border rounded-sm">
+                    <div className="w-44 h-32  rounded-sm">
                         <img src="https://theme-land.com/digimx/demo/assets/img/brand/brand_partner_4.png" alt="Company Name" className=" w-full object-contain h-full" />
                     </div>
                 </SwiperSlide>
