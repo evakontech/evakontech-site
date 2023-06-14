@@ -7,6 +7,8 @@ import { Pricing } from '../pricing-section/pricing-section.component';
 import { Feature } from '../feature/Feature.jsx';
 import { CTA } from '../cta/CTA.jsx';
 import { FAQs } from '../faq/FAQs.jsx';
+import { ServiceSection } from '../service-section/ServicesSection.component';
+import { Services } from '../service-section-2/Services';
 
 export const Home = () => {
     return (
@@ -15,6 +17,7 @@ export const Home = () => {
             <CollaboratingCompaniesList />
             <Feature />
             <BusinessGrowthSection />
+            <Services />
             <Pricing />
             <FAQs />
             <CTA />
