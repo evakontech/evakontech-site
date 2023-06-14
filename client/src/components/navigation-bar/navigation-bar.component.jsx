@@ -52,7 +52,7 @@ export const NavigationBar = () => {
 
                 <div className="flex justify-between items-center">
                     <div className="logo font-semibold text-3xl text-white">
-                        LOGO
+                        Evakon Tech
                     </div>
 
                     <div className="text-2xl text-white">
@@ -67,7 +67,7 @@ export const NavigationBar = () => {
 
                             <div className="flex justify-between items-center">
 
-                                <p className="text-base font-bold">evakon.</p>
+                                <p className="text-2xl font-bold">Evakon Tech</p>
 
                                 <button
                                     className="border border-solid border-black w-7 h-7 rounded-full text-xs"
@@ -91,7 +91,7 @@ export const NavigationBar = () => {
 
                                 <div className="mob-nav-contact-btn common-btn-style">
                                     <Link to="#">
-                                        <button>
+                                        <button className="bg-[#1563cb] text-white">
                                             Request Project
                                         </button>
                                     </Link>
