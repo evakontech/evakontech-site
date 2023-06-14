@@ -9,7 +9,7 @@ export const Footer = () => {
                     <h1 className="max-w-sm text-3xl font-bold">Subscribe to our Newsletter</h1>
                     <form action="" className="mt-4 inline-flex w-full items-center md:w-3/4">
                         <input
-                            className="flex h-10 w-full outline-none rounded-md border border-black/20 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                            className="flex h-10 w-full outline-none rounded-md border border-black/20 bg-transparent px-3 py-2 text-md placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                             type="email"
                             placeholder="Email"
                         ></input>
@@ -24,8 +24,8 @@ export const Footer = () => {
                 <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
 
                     <div className="mb-8 lg:mb-0">
-                        <p className="mb-6 text-lg font-semibold text-gray-700 ">Company</p>
-                        <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
+                        <p className="mb-6 text-2xl  font-semibold text-gray-700 ">Company</p>
+                        <ul className="flex flex-col space-y-4 text-[1.2rem] font-medium text-gray-500">
                             <li>About us</li>
                             <li>Our Team</li>
                             <li>Our Vision</li>
@@ -34,8 +34,8 @@ export const Footer = () => {
                     </div>
 
                     <div className="mb-8 lg:mb-0">
-                        <p className="mb-6 text-lg font-semibold text-gray-700 ">Join</p>
-                        <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
+                        <p className="mb-6 text-2xl  font-semibold text-gray-700 ">Join</p>
+                        <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
                             <li>Hire Remote Developer</li>
                             <li>Career at Evakon</li>
                             <li>Open Source</li>
@@ -43,8 +43,8 @@ export const Footer = () => {
                     </div>
 
                     <div className="mb-8 lg:mb-0">
-                        <p className="mb-6 text-lg font-semibold text-gray-700 ">Connection</p>
-                        <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
+                        <p className="mb-6 text-2xl  font-semibold text-gray-700 ">Connection</p>
+                        <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
                             <li>Blog</li>
                             <li>LinkedIn</li>
                             <li>Facebook</li>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 //CSS
 import './navigation-bar.styles.css';
-import {LuSend} from 'react-icons/lu'
+import { LuSend } from 'react-icons/lu'
 
 
 export const NavigationBar = () => {
@@ -36,7 +36,7 @@ export const NavigationBar = () => {
 
                         <div className="common-btn-style ">
                             <button className="flex items-center">
-                                <LuSend className="mr-2"/>
+                                <LuSend className="mr-2" />
                                 Request a Project
                             </button>
                         </div>
@@ -85,7 +85,7 @@ export const NavigationBar = () => {
                                     <li><Link to="/about">About</Link></li>
                                     <li><Link to="#">Services</Link></li>
                                     <li><Link to="/career">Career</Link></li>
-                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li><Link to="/portfolio">Portfolio</Link></li>
                                     <li><Link to="/hire-developer">Hire Developer</Link></li>
                                 </ul>
 
