@@ -30,10 +30,13 @@
 .open-nav {
     margin-right: 0px;
 }
+.cross-btn{
+    justify-content: right !important;
+}
 
 .mob-nav-contact-btn button {
-    border: 1px solid black;
-    color: black;
+    /* border: 1px solid black; */
+    color: white;
     margin-top: 50px;
     width: 200px;
 }

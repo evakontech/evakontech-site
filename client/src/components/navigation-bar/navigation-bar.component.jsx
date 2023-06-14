@@ -65,12 +65,12 @@ export const NavigationBar = () => {
 
                         <div className={`${displayMobNav ? "open-nav" : "close-nav"} mob-nav-menu bg-white py-5 px-9 box-border`}>
 
-                            <div className="flex justify-between items-center">
+                            <div className="flex justify-right cross-btn items-center ">
 
-                                <p className="text-2xl font-bold">Evakon Tech</p>
+                                {/* <p className="text-2xl font-bold">Evakon Tech</p> */}
 
                                 <button
-                                    className="border border-solid border-black w-7 h-7 rounded-full text-xs"
+                                    className="border border-solid border-black w-9 h-9 rounded-full text-xs"
 
                                     onClick={() => setDisplayMobNav(false)}
                                 >
