@@ -6,7 +6,7 @@ export const FAQs = () => {
         <section className="px-2 my-10"> {/* Added margin top and bottom */}
             <div className="mx-auto max-w-7xl py-10">
                 <div>
-                    <div className="max-w-2xl">
+                    <div className="max-w-2xl flex align-center justify-center flex-col">
                         <h1 className="text-5xl font-bold text-black">Frequently Asked Questions</h1>
                         <p className="mt-5 mb-4 text-lg leading-6 tracking-wide text-gray-500">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

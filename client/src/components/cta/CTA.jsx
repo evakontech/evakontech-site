@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export const CTA = () => {
     return (
         <section className="py-20 bg-gray-100">
@@ -34,13 +34,15 @@ export const CTA = () => {
                     <p className="mx-auto mt-6 max-w-xl text-base text-gray-600 md:mt-10 lg:text-xl">
                         We are committed to promoting the remote work in Nepal's experience and shaping the future of the software industry.
                     </p>
+                    <Link to="/career">
+                        <button
+                            type="button"
+                            className="mt-8 rounded-md bg-[#1563cb] px-4 py-3 text-md font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                        >
+                            Join our team
+                        </button>
+                    </Link>
 
-                    <button
-                        type="button"
-                        className="mt-8 rounded-md bg-[#1563cb] px-4 py-3 text-md font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                    >
-                        Join our team
-                    </button>
                 </div>
             </div>
         </section>
