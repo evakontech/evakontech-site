@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavigationBar } from '../navigation-bar/navigation-bar.component'
-import ContactForm from './ContactForm.jsx'
+import {ContactForm} from './ContactForm.jsx'
 import { Footer } from '../footer/footer.component.jsx'
 
 const Contact = () => {
@@ -12,8 +12,6 @@ const Contact = () => {
                     <h1 className='text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold'>
                         Contact Us
                     </h1>
-
-
                 </div>
             </div>
             <ContactForm />
