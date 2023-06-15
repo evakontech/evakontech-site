@@ -2,7 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Home } from './components/home/home.component.jsx';
 import Career from './components/career/Career';
-import About from './components/about/About';
+import { About } from './components/about/About';
 import HireDeveloper from './components/hire-developer/HireDeveloper';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact.jsx';
