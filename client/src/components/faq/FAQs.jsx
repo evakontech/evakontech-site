@@ -59,27 +59,72 @@ export const FAQs = () => {
                                 onClick={() => handleToggle(i + 1)}
                             >
                                 {i === 0 && (
-                                    <span className="flex text-lg font-semibold text-black">How do I apply for a software company vacancy?</span>
+                                    <>
+                                        <span className="flex text-lg font-semibold text-black">How do I apply for a software company vacancy?</span>
+                                        {expandedIndex === 1 ? (
+                                            <ChevronUp className="h-5 w-5 text-gray-500" />
+                                        ) : (
+                                            <ChevronDown className="h-5 w-5 text-gray-500" />
+                                        )}
+                                    </>
+                                    
                                 )}
                                 {i === 1 && (
-                                    <span className="flex text-start text-lg font-semibold text-black">
-                                        What are the requirements for software company vacancies?
-                                    </span>
+                                    <>
+                                        <span className="flex text-start text-lg font-semibold text-black">
+                                            What are the requirements for software company vacancies?
+                                        </span>
+                                        {expandedIndex === 2 ? (
+                                            <ChevronUp className="h-5 w-5 text-gray-500" />
+                                        ) : (
+                                            <ChevronDown className="h-5 w-5 text-gray-500" />
+                                        )}
+                                        
+                                    </>
+                                    
                                 )}
                                 {i === 2 && (
-                                    <span className="flex text-start text-lg font-semibold text-black">
-                                        How can I showcase my projects in a software company application?
-                                    </span>
+                                    <>
+                                        <span className="flex text-start text-lg font-semibold text-black">
+                                            How can I showcase my projects in a software company application?
+                                        </span>
+                                        {expandedIndex === 3 ? (
+                                            <ChevronUp className="h-5 w-5 text-gray-500" />
+                                        ) : (
+                                            <ChevronDown className="h-5 w-5 text-gray-500" />
+                                        )}
+                                        
+
+                                    </>
+                                    
                                 )}
                                 {i === 3 && (
-                                    <span className="flex text-start text-lg font-semibold text-black">
-                                        What skills are important for software company vacancies?
-                                    </span>
+                                    <>
+                                        <span className="flex text-start text-lg font-semibold text-black">
+                                            What skills are important for software company vacancies?
+                                        </span> 
+                                        {expandedIndex === 4 ? (
+                                            <ChevronUp className="h-5 w-5 text-gray-500" />
+                                        ) : (
+                                            <ChevronDown className="h-5 w-5 text-gray-500" />
+                                        )}
+
+                                    </>
+                                    
                                 )}
                                 {i === 4 && (
-                                    <span className="flex text-start text-lg font-semibold text-black">
-                                        How do software company interviews typically work?
-                                    </span>
+                                    <>
+                                        <span className="flex text-start text-lg font-semibold text-black">
+                                            How do software company interviews typically work?
+                                        </span>
+                                        {expandedIndex === 5 ? (
+                                            <ChevronUp className="h-5 w-5 text-gray-500" />
+                                        ) : (
+                                            <ChevronDown className="h-5 w-5 text-gray-500" />
+                                        )}
+
+                                    </>
+                                    
                                 )}
                                 
                             </button>
