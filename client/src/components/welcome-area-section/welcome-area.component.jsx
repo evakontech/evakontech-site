@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { NavigationBar } from '../navigation-bar/navigation-bar.component';
 import './welcome-area.styles.css';
 import { useRef } from 'react';
@@ -26,9 +27,12 @@ export const WelcomeArea = () => {
                         <button className='home-btn-primary'>
                             Start a project
                         </button>
-                        <button>
-                            Contact Us
-                        </button>
+                        <Link to='/contact'>
+                            <button>
+                                Contact Us
+                            </button>
+                        </Link>
+
                     </div>
                     <div className='mouse-arrow-button' onClick={scrollToNextSection}>
                         <div className='mouse-icon'></div>

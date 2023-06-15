@@ -36,6 +36,7 @@ const Review = () => {
             <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
             <section>
+                <h1 className='text-center font-bold text-5xl m-10 '>What our client says?</h1>
                 <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
                     <div className="swiper-container overflow-hidden">
                         <div className="swiper-wrapper">
