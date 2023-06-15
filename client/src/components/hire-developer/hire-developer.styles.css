@@ -23,3 +23,12 @@
     box-sizing: border-box;
     position: relative;
 }
+
+.contact-area-wrapper {
+    background-image: url("../../assets/test.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+    box-sizing: border-box;
+    position: relative;
+}
