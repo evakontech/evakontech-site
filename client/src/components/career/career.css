@@ -1,0 +1,34 @@
+.career-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.colored-text {
+    color: rgba(21, 99, 203, 0.9);
+}
+
+.career-content {
+    width: 100%;
+}
+
+.career-img {
+    width: 75%;
+}
+
+@media screen and (max-width: 1024px) {
+    .career-img {
+        display: none;
+    }
+    .career-hero {
+        justify-content: center;
+        max-width: 754px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .career-content {
+        text-align: center;
+    }
+}
