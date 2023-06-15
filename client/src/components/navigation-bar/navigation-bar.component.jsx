@@ -27,7 +27,7 @@ export const NavigationBar = () => {
                             <ul className="flex gap-x-7 text-lg font-semibold text-white">
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About</Link></li>
-                                <li><Link to="/services">Services</Link></li>
+                                <li><a href="#services">Services</a></li>
                                 <li><Link to="/career">Career</Link></li>
                                 <li><Link to="/portfolio">Portfolio</Link></li>
                                 <li><Link to="/hire-developer">Hire Developer</Link></li>
@@ -83,7 +83,7 @@ export const NavigationBar = () => {
                                 <ul className="flex flex-col mob-menu-links gap-y-7  font-bold text-black">
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About</Link></li>
-                                    <li><Link to="#">Services</Link></li>
+                                    <li><a href="#services">Services</a></li>
                                     <li><Link to="/career">Career</Link></li>
                                     <li><Link to="/portfolio">Portfolio</Link></li>
                                     <li><Link to="/hire-developer">Hire a Developer</Link></li>

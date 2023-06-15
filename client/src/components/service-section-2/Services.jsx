@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Services = () => {
     return (
-        <section className='container-width py-16'>
+        <section id="services" className='container-width py-16'>
 
             {/* Title  */}
             <div className='w-full lg:w-4/5 m-auto'>
