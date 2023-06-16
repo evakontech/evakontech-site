@@ -130,12 +130,13 @@ export const ContactForm = () => {
                                         key={location.title}
                                         className="flex flex-col space-y-2 pt-4 first:pt-0 lg:w-full"
                                     >
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/840px-Flag_of_Nepal.svg.png"
+                                        alt="Laptop"
+                                        className="h-34 w-16	 rounded-t-md object-cover"
+                                      />
                                         <p className="w-full text-xl font-semibold  text-gray-900">{location.title}</p>
                                         <p className="w-full text-base  text-gray-600">{location.timings}</p>
                                         <p className="text-sm font-semibold text-gray-600">{location.address}</p>
-                                        <p className="text-sm font-semibold text-gray-600">{location.country}</p>
-                                        <p className="text-sm font-semibold text-gray-600">{location.phone}</p>
-                                        <p className="text-sm font-semibold text-gray-600">{location.mail}</p>
                                     </div>
                                 ))}
                             </div>

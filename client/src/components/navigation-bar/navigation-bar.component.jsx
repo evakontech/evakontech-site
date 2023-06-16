@@ -118,15 +118,8 @@ export const NavigationBar = () => {
                                 </ul>
 
                                 <div className="mob-nav-contact-btn common-btn-style">
-<<<<<<< HEAD
-                                    <Link to="./contact">
-                                        <button className="bg-[#1563cb] text-white">
-                                            Request Project
-                                        </button>
-=======
                                     <Link to="#">
                                         <button>Request Project</button>
->>>>>>> f56de5ad2d10c3cae0f71080163a203d1feb935b
                                     </Link>
                                 </div>
                             </div>
