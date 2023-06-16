@@ -26,7 +26,7 @@ const Career = () => {
                         </p>
                         <h1 className="text-4xl sm:text-6xl leading-tight font-bold max-w-2xl mb-5 mt-3 mx-auto lg:ms-0">
                             <span className="text-slate-900">Join us at</span>
-                            <span className="text-[#1563CB]"> evakon.</span>
+                            <span className="text-[#1563CB] ml-1">Evakon Tech</span>
                         </h1>
 
                         <p className="text-slate-900 text-base mb-4 md:text-lg font-medium ">

@@ -16,10 +16,10 @@
 }
 
 .hire-developer-area-wrapper {
-    background-image: url("../../assets/test.jpg");
+    background-image: url("../../assets/banner.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh;
+    height: 30vh;
     box-sizing: border-box;
     position: relative;
 }
