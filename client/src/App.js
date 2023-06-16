@@ -6,18 +6,18 @@ import About from './components/about/About';
 import HireDeveloper from './components/hire-developer/HireDeveloper';
 import Portfolio from './components/portfolio/Portfolio';
 const App = () => {
-  return (
-    <>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/career" element={<Career />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/hire-developer" element={<HireDeveloper />} />
-
-      </Routes>
-    </>
-  );
-}
+    return (
+        <>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/career" element={<Career />} />
+                <Route path="/career/:opening" element={<Career />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/hire-developer" element={<HireDeveloper />} />
+            </Routes>
+        </>
+    );
+};
 
 export default App;

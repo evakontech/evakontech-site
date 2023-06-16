@@ -9,6 +9,8 @@ import { FaRegLightbulb } from 'react-icons/fa';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { HiOutlineRocketLaunch } from 'react-icons/hi2';
 
+import openingData from './career.data.json';
+
 const Career = () => {
     return (
         <>
@@ -44,15 +46,15 @@ const Career = () => {
                             repellendus sunt ullam rem eveniet atque aut
                             consequatur quam deleniti fuga ab.
                         </p>
-                        <Link to="/career">
+                        <a href="#current-openings">
                             <button
                                 type="button"
                                 className="mt-8 me-6 rounded-md bg-[#1563cb] transition px-4 py-3 text-md font-semibold text-white shadow-sm border-2 hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                             >
                                 See open positions
                             </button>
-                        </Link>
-                        <Link to="/career">
+                        </a>
+                        <Link to="internship/">
                             <button
                                 type="button"
                                 className="mt-8 rounded-md transition bg-transparent px-4 py-3 text-md font-semibold text-gray-600 border-2 border-[#1563cb] hover:border-transparent shadow-sm  hover:bg-black/80 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
@@ -96,7 +98,7 @@ const Career = () => {
                     </div>
                     {/* /content */}
 
-                    <div className="mt-12 grid grid-cols-1 gap-y-6 text-center lg:grid-cols-2 sm:gap-12 place-items-center">
+                    <div className="mt-10 grid grid-cols-1 gap-y-6 text-center lg:grid-cols-2 sm:gap-12 place-items-center">
                         <div className="bg-white w-full py-12 rounded-xl hover:shadow-lg transition px-3 max-w-lg lg:max-w-full">
                             <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
                                 <FaRegLightbulb className="h-9 w-9 text-white" />
@@ -177,7 +179,7 @@ const Career = () => {
                             <span className="text-[#1563CB]"> our team.</span>
                         </h2>
 
-                        <p className="text-slate-600 text-sm md:text-base">
+                        <div className="text-slate-600 text-sm md:text-base">
                             <p className="mb-2">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Perspiciatis aliquam
@@ -194,7 +196,7 @@ const Career = () => {
                                 rem eveniet atque aut consequatur quam deleniti
                                 fuga ab.
                             </p>
-                        </p>
+                        </div>
                     </div>
                     {/* /section-content */}
                 </div>
@@ -202,7 +204,7 @@ const Career = () => {
             </section>
             {/* about-company-section */}
 
-            <section className="bg-gray-200 py-10 px-3">
+            <section className="bg-gray-200 py-10 px-3" id="current-openings">
                 <div className="section-container max-w-6xl mx-auto">
                     <div className="mx-auto max-w-4xl text-center">
                         <p className="text-sm font-medium text-gray-400">
@@ -214,6 +216,48 @@ const Career = () => {
                         <div className="mx-auto inline-flex rounded-full bg-[#1563CB] px-5 p-[0.15rem]"></div>
                     </div>
                     {/* /content */}
+
+                    <table className="bg-white w-full mt-10 py-12 rounded-xl px-5">
+                        <thead>
+                            <tr className="border-b-2 border-slate-300">
+                                <th className="p-5 font-medium text-gray-600 text-lg text-left">
+                                    Position
+                                </th>
+                                <th className="p-5 font-medium text-gray-600 text-lg hidden sm:table-cell">
+                                    Openings
+                                </th>
+                                <th className="p-5 font-medium text-gray-600 text-lg hidden md:table-cell">
+                                    Deadline
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {openingData.map((opening) => (
+                                <tr
+                                    key={opening.id}
+                                    className="border-b-2 border-slate-200"
+                                >
+                                    <td className="p-5">{opening.position}</td>
+                                    <td className="p-5 text-center hidden sm:table-cell">
+                                        {opening.openings}
+                                    </td>
+                                    <td className="p-5 text-center hidden md:table-cell">
+                                        {opening.deadline}
+                                    </td>
+                                    <td className="p-5 text-center">
+                                        <Link
+                                            to={`${opening['page-url']}/`}
+                                            className="text-[#1563cb] underline font-medium"
+                                        >
+                                            View more
+                                        </Link>
+                                    </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                    {/* /openings-container */}
                 </div>
                 {/* /section-container */}
             </section>
