@@ -1,8 +1,8 @@
 import React from 'react'
 import { Code } from 'lucide-react'
-import {FaRegLightbulb} from 'react-icons/fa'
-import {MdOutlineDesignServices} from 'react-icons/md'
-import {HiOutlineRocketLaunch} from 'react-icons/hi2'
+import { FaRegLightbulb } from 'react-icons/fa'
+import { MdOutlineDesignServices } from 'react-icons/md'
+import { HiOutlineRocketLaunch } from 'react-icons/hi2'
 
 export const Feature = () => {
     return (
