@@ -7,18 +7,19 @@ import HireDeveloper from './components/hire-developer/HireDeveloper';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact.jsx';
 const App = () => {
-  return (
-    <>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/career" element={<Career />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/hire-developer" element={<HireDeveloper />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </>
-  );
-}
+    return (
+        <>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/career" element={<Career />} />
+                <Route path="/career/:opening" element={<Career />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/hire-developer" element={<HireDeveloper />} />
+                <Route path="/contact" element={<Contact />} />{' '}
+            </Routes>
+        </>
+    );
+};
 
 export default App;

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useForm } from '@formspree/react';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
     const [email, setEmail] = useState('');
-    const [state, handleSubmit] = useForm("xvonjnjk");
+    const [state, handleSubmit] = useForm('xvonjnjk');
 
     const handleSubscribe = async (e) => {
         e.preventDefault();
@@ -37,36 +38,58 @@ export const Footer = () => {
                         </button>
                     </form>
                     {state.errors.length > 0 && (
-                        <div className="mt-2 text-red-500">Error occurred while subscribing. Please try again later.</div>
+                        <div className="mt-2 text-red-500">
+                            Error occurred while subscribing. Please try again later.
+                        </div>
                     )}
                 </div>
                 <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
                     <div className="mb-8 lg:mb-0">
                         <p className="mb-6 text-2xl font-semibold text-gray-700">Company</p>
                         <ul className="flex flex-col space-y-4 text-[1.2rem] font-medium text-gray-500">
-                            <li>About us</li>
-                            <li>Our Team</li>
-                            <li>Our Vision</li>
-                            <li>Our Product</li>
+                            <li>
+                                <Link to={'/about'}>About us</Link>
+                            </li>
+                            <li>
+                                <Link to={'/team'}>Our Team</Link>
+                            </li>
+                            <li>
+                                <Link to={'/vision'}>Our Vision</Link>
+                            </li>
+                            <li>
+                                <Link to={'/product'}>Our Products</Link>
+                            </li>
                         </ul>
                     </div>
 
                     <div className="mb-8 lg:mb-0">
                         <p className="mb-6 text-2xl font-semibold text-gray-700">Join</p>
                         <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
-                            <li>Hire Remote Developer</li>
-                            <li>Career at Evakon</li>
-                            <li>Open Source</li>
+                            <li>
+                                <Link to={'/hire-remote-developer'}>Hire Remote Developer</Link>
+                            </li>
+                            <li>
+                                <Link to={'/career'}>Career at Evakon</Link>
+                            </li>
+                            <li>
+                                <Link to={'/open-source'}>Open Source</Link>
+                            </li>
                         </ul>
                     </div>
 
                     <div className="mb-8 lg:mb-0">
                         <p className="mb-6 text-2xl font-semibold text-gray-700">Connection</p>
                         <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
-                            <li>Blog</li>
-                            <li>LinkedIn</li>
-                            <li>Facebook</li>
-                            <li>Instagram</li>
+                            <li>
+                                <Link to={'/blog'}>Blog</Link>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/evakontech/">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/">Facebook</a>
+                            </li>
+                            <a href="mailto:info@evakon.tech">Contact Us</a>
                         </ul>
                     </div>
                 </div>
@@ -77,7 +100,9 @@ export const Footer = () => {
                     <span className="ml-4 text-2xl font-bold">Evakon Tech</span>
                 </div>
                 <div className="mt-4 md:mt-0">
-                    <p className="text-sm font-medium text-gray-500">© {new Date().getFullYear()} Evakon Tech. All rights reserved.</p>
+                    <p className="text-sm font-medium text-gray-500">
+                        © {new Date().getFullYear()} Evakon Tech. All rights reserved.
+                    </p>
                 </div>
             </div>
         </footer>
