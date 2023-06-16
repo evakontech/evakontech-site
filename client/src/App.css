@@ -95,3 +95,7 @@
 
   animation: jumpInfinite 1.5s infinite;
 }
+#message{
+  border: none!important;
+  border: 1px solid #e8eaed!important;
+}
