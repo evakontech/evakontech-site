@@ -2,6 +2,8 @@ import React from 'react'
 import { NavigationBar } from '../navigation-bar/navigation-bar.component'
 import './portfolio.css'
 import { BusinessGrowthSection } from '../business-growth/business-growth.component';
+import { Projects } from './Projects.jsx';
+import { Footer } from '../footer/footer.component';
 
 const Portfolio = () => {
     return (
@@ -20,6 +22,8 @@ const Portfolio = () => {
                 </div>
             </div>
             <BusinessGrowthSection />
+            <Projects />
+            <Footer />
         </section>
     )
 }

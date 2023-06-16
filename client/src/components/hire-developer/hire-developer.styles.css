@@ -24,11 +24,9 @@
     position: relative;
 }
 
-.contact-area-wrapper {
-    background-image: url("../../assets/test.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 30vh;
-    box-sizing: border-box;
-    position: relative;
-}
+/* .hire-dev-heading{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+} */
