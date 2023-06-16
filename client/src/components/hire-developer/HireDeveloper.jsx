@@ -1,47 +1,65 @@
 import React from 'react'
 import { NavigationBar } from '../navigation-bar/navigation-bar.component'
 import './hire-developer.styles.css'
-import { Menu, X, MapPin } from 'lucide-react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { Zap, Moon, Filter } from 'lucide-react';
+import {TfiWrite} from 'react-icons/tfi'
+import {BsCodeSlash, BsPersonCheck, BsTextarea} from 'react-icons/bs'
+import {BiTimeFive} from 'react-icons/bi'
+import { Footer } from '../footer/footer.component'
 
-const menuItems = [
+
+const data = [
     {
-      name: 'Home',
-      href: '#',
+      department: 'Engineering',
+      employess: [
+        {
+          name: 'John Doe',
+          title: 'Front-end Developer',
+          department: 'Engineering',
+          email: 'john@devui.com',
+          role: 'Developer',
+          image:
+            'https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80',
+        },
+        {
+          name: 'Jane Doe',
+          title: 'Back-end Developer',
+          department: 'Engineering',
+          email: 'jane@devui.com',
+          role: 'CTO',
+          image:
+            'https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80',
+        },
+      ],
     },
     {
-      name: 'About',
-      href: '#',
-    },
-    {
-      name: 'Contact',
-      href: '#',
+      department: 'Marketing',
+      employess: [
+        {
+          name: 'Mark Doe',
+          title: 'Digital Marketing',
+          department: 'Marketing',
+          email: 'mark@devui.com',
+          role: 'SEO Manager',
+          image:
+            'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
+        },
+        {
+          name: 'Seb Cook',
+          title: 'Social Media',
+          department: 'Marketing',
+          email: 'seb@devui.com',
+          role: 'Social Media Manager',
+          image:
+            'https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80',
+        },
+      ],
     },
   ]
   
-  const locations = [
-    {
-      title: 'Bengaluru office',
-      timings: 'Mon-Sat 9am to 5pm.',
-      address: '100, Electronic City Phase-1, Bengaluru, Karnataka 560100 IN',
-    },
-    {
-      title: 'Head office',
-      timings: 'Mon-Sat 9am to 5pm.',
-      address: '12th Main Rd, Indiranagar, Bengaluru, Karnataka 560008 IN',
-    },
-    {
-      title: 'Karnataka office',
-      timings: 'Mon-Sat 9am to 5pm.',
-      address: '42, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025 IN',
-    },
-  ]
 
 const HireDeveloper = () => {
-    const [isMenuOpen, setIsMenuOpen] = React.useState(false)
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
     return (
         <>
         <section className='hire-developer-area-wrapper'>
@@ -49,10 +67,10 @@ const HireDeveloper = () => {
                 <NavigationBar />
                 <div className='hire-developer-area-text  flex flex-col items-center justify-center text-center'>
                     <h1 className='text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold'>
-                        Hire a Best Developer Of Your Choice
+                        Hire Developer
                     </h1>
                     <p className='my-7 text-white '>
-                        Your ultimate partner in remote excellence.
+                        Simply Get started hiring the best developers in the following steps
                     </p>
                     
                     
@@ -60,172 +78,295 @@ const HireDeveloper = () => {
             </div>
         </section>
 
-        <section className="bg-white dark:bg-white-200 our-devs">
-        <div className="container px-6 py-10 mx-auto">
-          <div className="xl:flex xl:items-center xL:-mx-4">
-            <div className="xl:w-1/2 xl:mx-4">
-              <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-black">Our Developers</h1>
-              <p className="max-w-2xl mt-4 text-gray-500 dark:text-black-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-0 xl:mx-4 xl:w-1/2 md:grid-cols-2">
-              <div>
-                <img className="object-cover rounded-xl aspect-square" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-black">John Doe</h1>
-                <p className="mt-2 text-gray-500 capitalize dark:text-black-200">Full stack developer</p>
-              </div>
-              <div>
-                <img className="object-cover rounded-xl aspect-square" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-black">Mia</h1>
-                <p className="mt-2 text-gray-500 capitalize dark:text-black-200">Graphic Designer</p>
+        
+
+
+
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-xl text-center">
+        
+        {/* <h2 className="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+          DevUI helps you build beautiful website
+        </h2>  */}
+        {/* <p className="mt-4 text-base leading-relaxed text-gray-600">
+          Simply Get started hiring the best developers in the following steps
+        </p> */}
+      </div>
+      <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
+        <div>
+          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
+            <TfiWrite className="h-9 w-9 text-sitecolor" />
+          </div>
+          <h3 className="mt-8 text-lg font-semibold text-black">Define Your Requirement</h3>
+          <p className="mt-4 text-sm text-gray-600">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div>
+          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
+            <BsCodeSlash className="h-9 w-9 text-sitecolor" />
+          </div>
+          <h3 className="mt-8 text-lg font-semibold text-black"> Choose Tech Stack</h3>
+          <p className="mt-4 text-sm text-gray-600">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div>
+          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
+            <BsPersonCheck className="h-9 w-9 text-sitecolor" />
+          </div>
+          <h3 className="mt-8 text-lg font-semibold text-black">Select the Developers</h3>
+          <p className="mt-4 text-sm text-gray-600">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div>
+          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
+            <BiTimeFive className="h-9 w-9 text-sitecolor" />
+          </div>
+          <h3 className="mt-8 text-lg font-semibold text-black">Select the Timeframe</h3>
+          <p className="mt-4 text-sm text-gray-600">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit.
+          </p>
+        </div>
+      </div>
+    </div>
+ 
+
+
+      <section className="mt-20 mx-auto w-full max-w-7xl px-4 py-4">
+        <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
+          <div >
+            <h2 className="text-5xl mb-6 font-size-2xl font-bold text-center text-black">Our Best Team Members</h2>
+            <p className="mt-1 text-sm text-gray-700">
+              This is a list of all the best developers. You can get to build your best team.
+              ones.
+            </p>
+          </div>
+          
+        </div>
+        <div className="mt-6 flex flex-col">
+          <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+              <div className="overflow-hidden border border-gray-200 md:rounded-lg">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th
+                        scope="col"
+                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-500"
+                      >
+                        <span>Employee</span>
+                      </th>
+                      <th
+                        scope="col"
+                        className="px-12 py-3.5 text-left text-sm font-normal text-gray-500"
+                      >
+                        Title
+                      </th>
+
+                      <th
+                        scope="col"
+                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-500"
+                      >
+                        Status
+                      </th>
+
+                      <th
+                        scope="col"
+                        className="px-4 py-3.5 text-left text-sm font-normal text-gray-500"
+                      >
+                        Role
+                      </th>
+                      <th scope="col" className="relative px-4 py-3.5">
+                        <span className="sr-only">Edit</span>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200 bg-white">
+                    {data.map((dept) => (
+                      <React.Fragment key={dept.department}>
+                        <tr className="border-t border-gray-200">
+                          <th
+                            colSpan={5}
+                            scope="col"
+                            className="bg-gray-50 py-2 pl-4 pr-3 text-left text-sm font-medium text-gray-500"
+                          >
+                            {dept.department}
+                          </th>
+                        </tr>
+                        {dept.employess.map((employee) => (
+                          <tr key={employee.name}>
+                            <td className="whitespace-nowrap px-4 py-4">
+                              <div className="flex items-center">
+                                <div className="h-10 w-10 flex-shrink-0">
+                                  <img
+                                    className="h-10 w-10 rounded-full object-cover"
+                                    src={employee.image}
+                                    alt=""
+                                  />
+                                </div>
+                                <div className="ml-4">
+                                  <div className="text-sm font-medium text-gray-900 ">
+                                    {employee.name}
+                                  </div>
+                                  <div className="text-sm text-gray-500">{employee.email}</div>
+                                </div>
+                              </div>
+                            </td>
+                            <td className="whitespace-nowrap px-12 py-4">
+                              <div className="text-sm text-gray-900">{employee.title}</div>
+                              <div className="text-sm text-gray-500">{employee.department}</div>
+                            </td>
+                            <td className="whitespace-nowrap px-4 py-4">
+                              <span className="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">
+                                Active
+                              </span>
+                            </td>
+                            <td className="whitespace-nowrap px-4 py-4 text-sm text-gray-500">
+                              {employee.role}
+                            </td>
+                            <td className="whitespace-nowrap px-4 py-4 text-right text-sm font-medium">
+                              <a href="#" className="text-gray-500">
+                                Edit
+                              </a>
+                            </td>
+                          </tr>
+                        ))}
+                      </React.Fragment>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-6 flex items-center justify-between">
+          <a
+            href="#"
+            className="flex items-center gap-x-2 rounded-md border bg-white px-5 py-2 text-sm capitalize text-gray-700 transition-colors duration-200 hover:bg-gray-100"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            <span>previous</span>
+          </a>
+
+          {/* <div className="hidden items-center gap-x-3 md:flex">
+            <a href="#" className="rounded-md bg-gray-100 px-2 py-1 text-sm">
+              1
+            </a>
+            <a href="#" className="rounded-md px-2 py-1 text-sm text-gray-500 hover:bg-gray-100">
+              2
+            </a>
+            <a href="#" className="rounded-md px-2 py-1 text-sm text-gray-500 hover:bg-gray-100">
+              3
+            </a>
+            <a href="#" className="rounded-md px-2 py-1 text-sm text-gray-500 hover:bg-gray-100">
+              ...
+            </a>
+            <a href="#" className="rounded-md px-2 py-1 text-sm text-gray-500 hover:bg-gray-100">
+              12
+            </a>
+            <a href="#" className="rounded-md px-2 py-1 text-sm text-gray-500 hover:bg-gray-100">
+              13
+            </a>
+            <a href="#" className="rounded-md px-2 py-1 text-sm text-gray-500 hover:bg-gray-100">
+              14
+            </a>
+          </div> */}
+          <a
+            href="#"
+            className="flex items-center gap-x-2 rounded-md border bg-white px-5 py-2 text-sm capitalize text-gray-700 transition-colors duration-200 hover:bg-gray-100"
+          >
+            <span>Next</span>
+            <ArrowRight className="h-4 w-4" />
+          </a>
         </div>
       </section>
 
-      
-        <section className="py-14">
-            <div className="max-w-screen-xl mx-auto md:px-8">
-                <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
-                    <div className="flex-1 sm:hidden lg:block">
-                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" className="md:max-w-lg sm:rounded-lg" alt="" />
-                    </div>
-                    <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
-                        <h3 className="text-indigo-600 font-semibold">
-                            Professional Team
-                        </h3>
-                        <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                            Build your dream project from our experts
-                        </p>
-                        <p className="mt-3 text-gray-600">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-                        </p>
-                        <a href="javascript:void(0)" className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium">
-                            Learn more
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-                                <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-    <div>
-      
+     
 
-      <div className="mx-auto max-w-7xl px-4">
-        <div className="mx-auto max-w-7xl py-12 md:py-24">
-          <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
-            {/* contact from */}
-            <div className="flex items-center justify-center">
-              <div className="px-2 md:px-12">
-                <p className="text-2xl font-bold text-gray-900 md:text-4xl">Get in touch</p>
-                <p className="mt-4 text-lg text-gray-600">
-                  Our friendly team would love to hear from you.
-                </p>
-                <form action="" className="mt-8 space-y-4">
-                  <div className="grid w-full gap-y-4 md:gap-x-4 lg:grid-cols-2">
-                    <div className="grid w-full  items-center gap-1.5">
-                      <label
-                        className="text-sm font-medium leading-none text-gray-700 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                        htmlFor="first_name"
-                      >
-                        First Name
-                      </label>
-                      <input
-                        className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                        type="text"
-                        id="first_name"
-                        placeholder="First Name"
-                      />
-                    </div>
-                    <div className="grid w-full  items-center gap-1.5">
-                      <label
-                        className="text-sm font-medium leading-none text-gray-700 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                        htmlFor="last_name"
-                      >
-                        Last Name
-                      </label>
-                      <input
-                        className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                        type="text"
-                        id="last_name"
-                        placeholder="Last Name"
-                      />
-                    </div>
-                  </div>
-                  <div className="grid w-full  items-center gap-1.5">
-                    <label
-                      className="text-sm font-medium leading-none text-gray-700 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      htmlFor="email"
-                    >
-                      Email
-                    </label>
-                    <input
-                      className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                      type="text"
-                      id="email"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div className="grid w-full  items-center gap-1.5">
-                    <label
-                      className="text-sm font-medium leading-none text-gray-700 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      htmlFor="phone_number"
-                    >
-                      Phone number
-                    </label>
-                    <input
-                      className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                      type="tel"
-                      id="phone_number"
-                      placeholder="Phone number"
-                    />
-                  </div>
-                  <div className="grid w-full  items-center gap-1.5">
-                    <label
-                      className="text-sm font-medium leading-none text-gray-700 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      htmlFor="message"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                      id="message"
-                      placeholder="Leave us a message"
-                      cols={3}
-                    />
-                  </div>
-                  <button
-                    type="button"
-                    className="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                  >
-                    Send Message
-                  </button>
-                </form>
-              </div>
-            </div>
-            <img
-              alt="Contact us"
-              className="hidden max-h-full w-full rounded-lg object-cover lg:block"
-              src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGhhcHB5JTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-            />
-          </div>
-        </div>
-      </div>
-      
-      
-    </div>
 
 
     
 
+   
+        <section className="w-full mt-10 mb-20 flex flex-col items-center justify-center px-4">
+            <div className="max-w-sm w-full text-gray-600">
+                <div className="text-center">
+                    
+                    <div className="mt-5 space-y-2">
+                        <h3 className="text-gray-800 text-2xl font-bold sm:text-3xl">Let's get you started</h3>
+                        
+                    </div>
+                </div>
+                <form
+                    onSubmit={(e) => e.preventDefault()}
+                    className="mt-8 space-y-5"
+                >
+                    <div>
+                        <label className="font-medium">
+                            Comapny Name
+                        </label>
+                        <input
+                            type="text"
+                            required
+                            className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                        />
+                    </div>
+                    <div>
+                        <label className="font-medium">
+                            Company Email
+                        </label>
+                        <input
+                            type="email"
+                            required
+                            className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                        />
+                    </div>
+                    <div>
+                        <label className="font-medium">
+                            Company Address
+                        </label>
+                        <input
+                            type="text"
+                            required
+                            className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                        />
+                    </div>
+                    <div className="relative ">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="absolute top-0 bottom-0 w-6 h-6 my-auto text-gray-400 right-2.5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                        </svg>
+                        <select className="w-full p-2.5 text-gray-500 bg-white border rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
+                            <option>Select a role</option>
+                            <option>Project manager</option>
+                            <option>Software engineer</option>
+                            <option>IT manager</option>
+                            <option>UI / UX designer</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border outline-none border-white-100 focus:ring-blue-500 focus:border-blue-500 light:placeholder-gray-500 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Please explain about your project ..."></textarea>
+                    </div>
 
-        
 
+                    <button
+                        className="w-full px-4 py-2 text-white font-medium bg-sitecolor hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150"
+                    >
+                        Submit
+                    </button>
+                    
+                </form>
+            </div>
+     
+        </section>
+
+        <Footer />
 
         </>
     )

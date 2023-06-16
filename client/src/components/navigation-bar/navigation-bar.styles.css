@@ -1,11 +1,14 @@
+.navigation-container {
+    background-color: rgba(21, 99, 203, 0.9);
+}
+
 .mob-nav-menu-wrapper {
     position: fixed;
     background-color: rgb(0, 0, 0, 0.5);
-    height: 100% ;
+    height: 100%;
     top: 0;
     right: 0;
     z-index: 22;
-    
 }
 
 .mob-nav-menu-wrapper .mob-nav-menu {
@@ -13,9 +16,8 @@
     transition: 1s;
     width: 500px;
     background: white !important;
-    
 }
-.mob-nav-menu-links{
+.mob-nav-menu-links {
     height: 80% !important;
     display: flex;
     flex-direction: column;
@@ -41,7 +43,7 @@
     width: 200px;
 }
 
-.mob-menu-links{
+.mob-menu-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,13 +51,11 @@
     color: rgb(62, 62, 62);
 }
 
-
-
 .mob-nav-contact-btn button:hover {
     color: white;
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
     .mob-nav-menu-wrapper .mob-nav-menu {
         width: 100%;
     }
