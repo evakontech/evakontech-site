@@ -35,10 +35,13 @@ export const NavigationBar = () => {
                         </div>
 
                         <div className="common-btn-style ">
+                            <Link to="/contact">
                             <button className="flex items-center">
                                 <LuSend className="mr-2" />
                                 Request a Project
                             </button>
+                            </Link>
+                            
                         </div>
 
                     </div>
