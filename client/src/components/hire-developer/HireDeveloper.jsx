@@ -4,7 +4,7 @@ import './hire-developer.styles.css'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 // import { Zap, Moon, Filter } from 'lucide-react';
 import { TfiWrite } from 'react-icons/tfi'
-import { BsCodeSlash, BsPersonCheck, BsTextarea } from 'react-icons/bs'
+import { BsCodeSlash, BsPersonCheck } from 'react-icons/bs'
 import { BiTimeFive } from 'react-icons/bi'
 import { Footer } from '../footer/footer.component'
 
