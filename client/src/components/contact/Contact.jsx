@@ -77,7 +77,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-                            <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+                            <div className="relative rounded-lg bg-[#f9f3f3] p-8 shadow-lg sm:p-12">
                                 <form>
                                     <div className="mb-6">
                                         <input type="text" placeholder="Your Name" className="text-body-color border-[#9da7b0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none" />
@@ -98,7 +98,7 @@ const Contact = () => {
                                     </div>
                                 </form>
                                 <div>
-                                    <span className="absolute -top-10 -right-9 z-[-1]">
+                                    <span className="absolute -top-10 -right-5 z-[-1]">
                                         <svg width={100} height={100} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fillRule="evenodd" clipRule="evenodd" d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z" fill="#3056D3" />
                                         </svg>
