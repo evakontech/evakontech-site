@@ -125,3 +125,8 @@ body {
     border: none !important;
     border: 1px solid #e8eaed !important;
 }
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
