@@ -26,9 +26,9 @@ export const NavigationBar = () => {
                                 <li>
                                     <Link to="/about">About</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link to="/services">Services</Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link to="/career">Career</Link>
                                 </li>
@@ -45,12 +45,12 @@ export const NavigationBar = () => {
 
                         <div className="common-btn-style ">
                             <Link to="/contact">
-                            <button className="flex items-center">
-                                <LuSend className="mr-2" />
-                                Request a Project
-                            </button>
+                                <button className="flex items-center">
+                                    <LuSend className="mr-2" />
+                                    Request a Project
+                                </button>
                             </Link>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -71,16 +71,14 @@ export const NavigationBar = () => {
                     </div>
 
                     <div
-                        className={`mob-nav-menu-wrapper flex justify-end ${
-                            displayMobNav
+                        className={`mob-nav-menu-wrapper flex justify-end ${displayMobNav
                                 ? 'w-full'
                                 : 'w-0 overflow-hidden m-0 p-0'
-                        }`}
+                            }`}
                     >
                         <div
-                            className={`${
-                                displayMobNav ? 'open-nav' : 'close-nav'
-                            } mob-nav-menu bg-white py-5 px-9 box-border`}
+                            className={`${displayMobNav ? 'open-nav' : 'close-nav'
+                                } mob-nav-menu bg-white py-5 px-9 box-border`}
                         >
                             <div className="flex justify-between items-center">
                                 <p className="text-base font-bold">evakon.</p>
