@@ -72,8 +72,8 @@ export const NavigationBar = () => {
 
                     <div
                         className={`mob-nav-menu-wrapper flex justify-end ${displayMobNav
-                                ? 'w-full'
-                                : 'w-0 overflow-hidden m-0 p-0'
+                            ? 'w-full'
+                            : 'w-0 overflow-hidden m-0 p-0'
                             }`}
                     >
                         <div
@@ -99,9 +99,9 @@ export const NavigationBar = () => {
                                     <li>
                                         <Link to="/about">About</Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link to="#">Services</Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link to="/career">Career</Link>
                                     </li>
