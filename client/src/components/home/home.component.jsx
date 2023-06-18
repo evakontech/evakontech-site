@@ -10,7 +10,7 @@ import { FAQs } from '../faq/FAQs.jsx';
 // import { ServiceSection } from '../service-section/ServicesSection.component';
 import { Services } from '../service-section-2/Services';
 import Review from '../review/Review.jsx';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 export const Home = () => {
     return (
         <>
@@ -23,10 +23,6 @@ export const Home = () => {
             <FAQs />
             <Review />
             <CTA />
-            <MessengerCustomerChat
-                pageId="111903781926107"
-                appId="223269043853889"
-            />
             <Footer />
         </>
     )
