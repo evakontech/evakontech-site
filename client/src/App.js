@@ -6,13 +6,14 @@ import { About } from './components/about/About';
 import HireDeveloper from './components/hire-developer/HireDeveloper';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact.jsx';
+import Opening from './components/career/Opening';
 const App = () => {
     return (
         <>
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/career" element={<Career />} />
-                <Route path="/career/:opening" element={<Career />} />
+                <Route path="/career/:opening" element={<Opening />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/hire-developer" element={<HireDeveloper />} />
