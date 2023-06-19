@@ -3,7 +3,7 @@ import { NavigationBar } from '../navigation-bar/navigation-bar.component';
 import { Footer } from '../footer/footer.component';
 import { Link } from 'react-router-dom';
 import heroSectionImage from '../../assets/career-side-img.jpg';
-import aboutSectionImage from '../../assets/career-about-img.jpg';
+// import aboutSectionImage from '../../assets/career-about-img.jpg';
 
 import openings from './career.data.json';
 import { SelectionProcess } from './SelectionProcess.jsx';
