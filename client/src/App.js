@@ -6,9 +6,11 @@ import { About } from './components/about/About';
 import HireDeveloper from './components/hire-developer/HireDeveloper';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact.jsx';
+
 import Opening from './components/career/Opening';
 import ApplyForm from './components/career/ApplyForm';
-const App = () => {
+
+function App() {
     return (
         <>
             <Routes>
@@ -23,6 +25,6 @@ const App = () => {
             </Routes>
         </>
     );
-};
+}
 
 export default App;
