@@ -49,14 +49,14 @@ const Career = () => {
                                     See open positions
                                 </button>
                             </a>
-                            <Link to="internship/">
+                            <a href="#current-openings">
                                 <button
                                     type="button"
                                     className="mt-8 rounded-md transition bg-transparent px-4 py-3 text-md font-semibold text-gray-600 border-2 border-[#1563cb] hover:border-transparent shadow-sm  hover:bg-black/80 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                                 >
                                     Learn about internships
                                 </button>
-                            </Link>
+                            </a>
                         </div>
                         {/* /hero-content */}
 
