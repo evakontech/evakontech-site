@@ -67,7 +67,7 @@ const HireDeveloper = () => {
         <div className="hire-developer-area-overlay-bg ">
           <NavigationBar />
           <div className='hire-developer-area-text flex flex-col items-center justify-center text-center'>
-            <h1 className='text-4xl mt-15 sm:text-4xl md:text-md text-white font-extrabold'>
+            <h1 className='text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold'>
               Hire Developer
             </h1>
             <p className='my-5 sm:text-sm  md:text-md text-white '>

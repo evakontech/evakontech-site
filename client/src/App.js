@@ -6,19 +6,17 @@ import { About } from './components/about/About';
 import HireDeveloper from './components/hire-developer/HireDeveloper';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact.jsx';
-import { MultistepForm } from './components/multistep-form/MultistepForm';
+
 const App = () => {
     return (
         <>
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/career" element={<Career />} />
-                <Route path="/career/:opening" element={<Career />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/hire-developer" element={<HireDeveloper />} />
                 <Route path="/contact" element={<Contact />} />{' '}
-                <Route path="/hire-developer-form" element={<MultistepForm />} />
             </Routes>
         </>
     );
