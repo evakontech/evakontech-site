@@ -9,12 +9,13 @@ const Opening = () => {
 
     return (
         <section>
-            <div className="w-full h-full navigation-container">
-                <NavigationBar />
-            </div>
+            {/* <div className="w-full h-full navigation-container">
+                
+            </div> */}
             {/* /navbar */}
 
-            <section className="bg-[#1563cb] px-10 h-[275px]">
+            <section className="bg-[#1563cb] px-10 h-[300px]">
+                <NavigationBar />
                 <div className="container-width flex justify-center flex-col h-full">
                     <h2 className="text-white text-4xl font-semibold mb-3">{currentOpening.position}</h2>
                     <div className="text-white flex items-center">
