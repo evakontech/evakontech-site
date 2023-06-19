@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { NavigationBar } from '../navigation-bar/navigation-bar.component';
-import { Footer } from '../footer/footer.component';
 import openings from './career.data.json';
 
 const Opening = () => {
@@ -39,16 +38,20 @@ const Opening = () => {
             <section className="container-width">
                 <div className="my-16">
                     <div className="bg-gray-100 p-7 rounded-xl mb-7">
-                        <div className="inline-flex flex-col gap-2">
-                            <p className="text-[17px] text-slate-700">Openings</p>
-                            <p className="text-[17px] text-slate-700">Posted On</p>
-                            <p className="text-[17px] text-slate-700">Deadline</p>
-                            <p className="text-[17px] text-slate-700">Designation</p>
-                        </div>
-                        <div className="inline-flex flex-col gap-2 ml-16">
+                        <div className="flex flex-col sm:flex-row mb-1">
+                            <p className="text-[17px] text-slate-700 w-full max-w-[170px]">Openings</p>
                             <p className="text-[17px] text-slate-800 font-medium">{currentOpening.openings}</p>
+                        </div>
+                        <div className="flex flex-col sm:flex-row mb-1">
+                            <p className="text-[17px] text-slate-700 w-full max-w-[170px]">Posted on</p>
                             <p className="text-[17px] text-slate-800 font-medium">{currentOpening.posted}</p>
+                        </div>
+                        <div className="flex flex-col sm:flex-row mb-1">
+                            <p className="text-[17px] text-slate-700 w-full max-w-[170px]">Deadline</p>
                             <p className="text-[17px] text-slate-800 font-medium">{currentOpening.deadline}</p>
+                        </div>
+                        <div className="flex flex-col sm:flex-row">
+                            <p className="text-[17px] text-slate-700 w-full max-w-[170px]">Position</p>
                             <p className="text-[17px] text-slate-800 font-medium">{currentOpening.position}</p>
                         </div>
                     </div>
@@ -82,7 +85,7 @@ const Opening = () => {
                         </div>
                     </div>
 
-                    <Link to="job-apply-form">
+                    <Link to="/job-apply-form">
                         <button
                             type="button"
                             className="rounded-md bg-[#1563cb] transition px-16 py-3 text-md font-semibold text-white shadow-sm border-2 hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
