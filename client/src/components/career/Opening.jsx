@@ -14,7 +14,7 @@ const Opening = () => {
             </div>
             {/* /navbar */}
 
-            <section className="bg-slate-600 px-10 h-[275px]">
+            <section className="bg-[#1563cb] px-10 h-[275px]">
                 <div className="container-width flex justify-center flex-col h-full">
                     <h2 className="text-white text-4xl font-semibold mb-3">{currentOpening.position}</h2>
                     <div className="text-white flex items-center">

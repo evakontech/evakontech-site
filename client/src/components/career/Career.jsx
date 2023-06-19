@@ -4,12 +4,9 @@ import { Footer } from '../footer/footer.component';
 import { Link } from 'react-router-dom';
 import heroSectionImage from '../../assets/career-side-img.jpg';
 import aboutSectionImage from '../../assets/career-about-img.jpg';
-import { Code } from 'lucide-react';
-import { FaRegLightbulb } from 'react-icons/fa';
-import { MdOutlineDesignServices } from 'react-icons/md';
-import { HiOutlineRocketLaunch } from 'react-icons/hi2';
 
 import openings from './career.data.json';
+import { SelectionProcess } from './SelectionProcess.jsx';
 
 const Career = () => {
     return (
@@ -72,77 +69,12 @@ const Career = () => {
                 </section>
                 {/* /hero-section */}
 
-                <section className="bg-gray-200 py-10 px-3">
-                    <div className="section-container max-w-6xl mx-auto">
-                        <div className="mx-auto max-w-4xl text-center">
-                            <p className="text-sm font-medium text-gray-400">COMPANY'S VALUE</p>
-                            <h2 className="mt-3 text-3xl font-semibold leading-tight text-black md:text-4xl">
-                                Our culture drives our business and our employees are the most important{' '}
-                                <span className="text-[#1563CB]">piece of the puzzle.</span>
-                            </h2>
-                            <p className="mt-4 text-base leading-relaxed text-gray-600">
-                                From Concept to Code: Shaping Software Excellence.
-                            </p>
-                            <div className="mx-auto inline-flex rounded-full bg-[#1563CB] px-5 p-[0.15rem]"></div>
-                        </div>
-                        {/* /content */}
-
-                        <div className="mt-10 grid grid-cols-1 gap-y-6 text-center lg:grid-cols-2 sm:gap-12 place-items-center">
-                            <div className="bg-white w-full py-12 rounded-xl hover:shadow-lg transition px-3 max-w-lg lg:max-w-full">
-                                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
-                                    <FaRegLightbulb className="h-9 w-9 text-white" />
-                                </div>
-                                <h3 className="mt-8 text-2xl font-semibold text-black">Idea & Analysis</h3>
-                                <p className="mt-4 text-md text-gray-600 max-w-sm mx-auto">
-                                    Brainstorming ideas and evaluating project requirements to ensure a comprehensive
-                                    understanding before proceeding.
-                                </p>
-                            </div>
-                            {/* /card-item */}
-                            <div className="bg-white w-full py-12 rounded-xl hover:shadow-lg transition px-3 max-w-lg lg:max-w-full">
-                                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
-                                    <MdOutlineDesignServices className="h-9 w-9 text-white" />
-                                </div>
-                                <h3 className="mt-8 text-2xl font-semibold text-black">Designing</h3>
-                                <p className="mt-4 text-md text-gray-600 max-w-sm mx-auto">
-                                    Creating visually appealing and user-friendly designs to enhance the overall
-                                    aesthetic and usability of the project.
-                                </p>
-                            </div>
-                            {/* /card-item */}
-                            <div className="bg-white w-full py-12 rounded-xl hover:shadow-lg transition px-3 max-w-lg lg:max-w-full">
-                                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
-                                    <Code className="h-9 w-9 text-white" />
-                                </div>
-                                <h3 className="mt-8 text-2xl font-semibold text-black">Development</h3>
-                                <p className="mt-4 text-md text-gray-600 max-w-sm mx-auto">
-                                    Implementing and coding the project, transforming ideas into a functional and
-                                    efficient end product.
-                                </p>
-                            </div>
-                            {/* /card-item */}
-                            <div className="bg-white w-full py-12 rounded-xl hover:shadow-lg transition px-3 max-w-lg lg:max-w-full">
-                                <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#1563cb]">
-                                    <HiOutlineRocketLaunch className="h-9 w-9 text-white" />
-                                </div>
-                                <h3 className="mt-8 text-2xl font-semibold text-black">Testing & Launching</h3>
-                                <p className="mt-4 text-md text-gray-600 max-w-sm mx-auto">
-                                    Conducting rigorous testing procedures to ensure the project's functionality and a
-                                    successful deployment to the intended audience.
-                                </p>
-                            </div>
-                            {/* /card-item */}
-                        </div>
-                        {/* /card-container */}
-                    </div>
-                    {/* /section-container */}
-                </section>
-                {/* /company-features-section */}
+                <SelectionProcess />
 
                 <section className="py-10 px-3">
                     <div className="container-width flex items-center max-w-3xl lg:max-w-full gap-x-10">
                         <div className="w-full lg:w-1/2 px-5 text-center hidden lg:block">
-                            <img src={aboutSectionImage} alt="Company" className="w-full rounded-2xl shadow-xl" />
+                            <img src="https://img.freepik.com/free-vector/forming-team-leadership-concept-illustration_114360-13973.jpg?size=626&ext=jpg" alt="Company" className="w-full" />
                         </div>
                         {/* /section-image */}
 
@@ -172,7 +104,7 @@ const Career = () => {
                 </section>
                 {/* about-company-section */}
 
-                <section className="bg-gray-200 py-10 px-3" id="current-openings">
+                <section className="bg-gray-100 py-10 px-3" id="current-openings">
                     <div className="section-container max-w-6xl mx-auto">
                         <div className="mx-auto max-w-4xl text-center">
                             <p className="text-sm font-medium text-gray-400">INTERESTED ? WE ARE HIRING</p>
@@ -183,7 +115,7 @@ const Career = () => {
                         </div>
                         {/* /content */}
 
-                        <table className="bg-white w-full mt-10 py-12 rounded-xl px-5">
+                        <table className="bg-white w-full mt-10 mb-10 py-12 px-5">
                             <thead>
                                 <tr className="border-b-2 border-slate-300">
                                     <th className="p-5 font-medium text-gray-600 text-lg text-left">Position</th>
@@ -205,11 +137,12 @@ const Career = () => {
                                         <td className="p-5 text-center">
                                             <Link
                                                 to={`${opening['page_url']}/`}
-                                                className="text-[#1563cb] underline font-medium"
+                                                className="text-white bg-[#1563cb] py-2 px-4 rounded-md font-medium hover:bg-[#0f4fa8] transition-colors duration-200"
                                             >
-                                                View more
+                                                Apply Here
                                             </Link>
                                         </td>
+
                                     </tr>
                                 ))}
                             </tbody>
@@ -219,6 +152,27 @@ const Career = () => {
                     {/* /section-container */}
                 </section>
                 {/* /openings-section */}
+                <div className='bg-[#1662D0] py-24 text-white text-center'>
+
+                    <div className="w-4/5 md:w-3/4 lg:w-3/5 m-auto">
+                        <p className="text-4xl sm:text-6xl font-extrabold">
+                            Join and Experience Evakon Remote Life
+                        </p>
+                        <p className="my-9">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
+                        </p>
+                        <div className="common-btn-style">
+                            <Link to="/career">
+                                <button className="flex items-center">
+                                    Join Team
+                                </button>
+                            </Link>
+
+                        </div>
+                    </div>
+
+                </div>
+
                 <Footer />
             </section>
         </>
