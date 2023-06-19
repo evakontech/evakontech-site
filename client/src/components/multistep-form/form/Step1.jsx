@@ -13,8 +13,6 @@ function Input({ fieldName, id }) {
 
   const { register, formState: { errors } } = useFormContext();
 
-  console.log(register)
-
   const hasRequiredError = errors[fieldName];
 
   const outLineStyle = hasRequiredError
@@ -44,8 +42,6 @@ function Input({ fieldName, id }) {
 export function Step1({ formId, onSubmit }) {
 
   const methods = useForm();
-
-  console.log(methods)
 
   const { name, email, phone } = useStepFormSetting((state) => state.setting);
 

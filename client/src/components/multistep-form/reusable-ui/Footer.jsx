@@ -8,7 +8,7 @@ export default function Footer({ currentStepNo, formId, onGoBackButtonClick }) {
   const inProgress = currentStepNo < totalStepCount;
 
   return (
-    <footer className="flex justify-between items-center p-4 bg-black md:justify-self-center md:min-w-[30em]">
+    <footer className="flex justify-between items-center p-4 md:justify-self-center md:min-w-[30em]">
       <SecondaryButton
         onClick={onGoBackButtonClick}
         isInitialStep={isInitialStep}

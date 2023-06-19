@@ -44,7 +44,7 @@ export const useStepFormSetting = create(
   })
 );
 
-export const Form = ({ title, description, children, id }) => {
+export const Form = ({ title, description, children, id, onSubmit }) => {
 
   const hasHeader = title !== "" || description !== "";
 
@@ -53,6 +53,7 @@ export const Form = ({ title, description, children, id }) => {
       id={id}
       title={title}
       description={description}
+      onSubmit={onSubmit}
       className="absolute top-24 inset-x-0 mx-4 py-8 px-6 bg-white rounded-lg shadow-xl md:static md:shadow-none md:mx-0 md:px-0 md:pt-10"
     >
       {hasHeader && (

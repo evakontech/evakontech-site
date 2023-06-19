@@ -1,7 +1,7 @@
 
 export function PrimaryButton({ type, form, inProgress, children }) {
 
-  const bgColor = inProgress ? `bg-marine-blue` : `bg-purplish-blue`;
+  const bgColor = inProgress ? `bg-[#3874D1]` : `bg-purplish-blue`;
 
   return (
     <button
@@ -22,7 +22,7 @@ export function SecondaryButton({ onClick, isInitialStep, children }) {
   return (
     <button
       onClick={onClick}
-      className={`text-cool-gray ${visibility} outline-none bg-black`}
+      className={`text-sm text-white ${visibility} rounded-md py-3 px-4 outline-purplish-blue bg-black hover:saturate-200 hover:opacity-50`}
     >
       {children}
     </button>

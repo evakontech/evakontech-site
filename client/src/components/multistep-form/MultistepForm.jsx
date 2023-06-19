@@ -1,6 +1,5 @@
 
-
-
+import { useEffect } from "react";
 import { Step1, Step2, Step3, Step4, StepComplete, useStepFormSetting } from "./form";
 import Footer from "./reusable-ui/Footer";
 import Progress from "./reusable-ui/Progress";
@@ -11,15 +10,17 @@ const stepFormList = [Step1, Step2, Step3, Step4];
 export const MultistepForm = () => {
 
     const stepNo = useStepFormSetting((state) => state.stepNo);
-
-    console.log(stepNo)
+    const showNextStep = useStepFormSetting((state) => state.showNextStep);
 
     const StepForm = stepFormList[stepNo - 1];
     const formId = `step-${stepNo}`;
     const isStepComplete = stepNo > totalStepCount;
 
-    const onSubmit = useStepFormSetting((state) => state.showNextStep);
+    const onSubmit = (data, e) => {
+        return showNextStep();
+    }
     const onGoBackButtonClick = useStepFormSetting((state) => state.showPrevStep);
+
 
     return (
         <section className="bg-white flex flex-col min-h-screen max-w-5xl mx-auto md:my-4 md:min-h-[min(calc(100vh-2em),37.5em)] md:grid md:grid-cols-[17em,1fr] md:grid-rows-[1fr,auto] md:shadow-xl">
@@ -30,12 +31,12 @@ export const MultistepForm = () => {
                 ) : (
                     <StepForm formId={formId} onSubmit={onSubmit} />
                 )}
+
             </main>
             {!isStepComplete && (
                 <Footer
                     currentStepNo={stepNo}
                     formId={formId}
-                    onSubmit={onSubmit}
                     onGoBackButtonClick={onGoBackButtonClick}
                 />
             )}
