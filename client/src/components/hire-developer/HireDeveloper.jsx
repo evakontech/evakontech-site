@@ -7,6 +7,7 @@ import { TfiWrite } from 'react-icons/tfi'
 import { BsCodeSlash, BsPersonCheck } from 'react-icons/bs'
 import { BiTimeFive } from 'react-icons/bi'
 import { Footer } from '../footer/footer.component'
+import { MultistepForm } from '../multistep-form/MultistepForm'
 
 
 const data = [
