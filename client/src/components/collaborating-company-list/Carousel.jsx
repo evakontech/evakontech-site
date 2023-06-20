@@ -13,8 +13,8 @@ export const Carousel = () => {
         <>
 
             <Swiper
-                slidesPerView={1}
-                spaceBetween={5}
+                slidesPerView={2}
+                spaceBetween={4}
                 autoplay={{
                     delay: 2000,
                     disableOnInteraction: false,
