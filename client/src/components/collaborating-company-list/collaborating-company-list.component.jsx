@@ -18,7 +18,7 @@ export const CollaboratingCompaniesList = () => {
 
 
 
-      <div className="w-11/12 md:w-4/5 lg:w-3/4 m-auto mt-16 company-logo-crousel">
+      <div className="w-full md:w-4/5 lg:w-[40%] m-auto mt-16 company-logo-crousel">
         <Carousel />
       </div>
 
