@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavigationBar } from '../navigation-bar/navigation-bar.component'
 import './hire-developer.styles.css'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
@@ -8,6 +8,9 @@ import { BsCodeSlash, BsPersonCheck } from 'react-icons/bs'
 import { BiTimeFive } from 'react-icons/bi'
 import { Footer } from '../footer/footer.component'
 import { MultistepForm } from '../multistep-form/MultistepForm'
+import { HireDeveloperCTA } from './HireDeveloperCTA';
+
+
 
 
 const data = [
@@ -61,6 +64,9 @@ const data = [
 
 
 const HireDeveloper = () => {
+
+  const [displayMultiStepForm, setDisplayMultiStepForm] = useState(false);
+
   return (
     <>
       <section className='hire-developer-area-wrapper'>
@@ -73,14 +79,9 @@ const HireDeveloper = () => {
             <p className='my-5 sm:text-sm  md:text-md text-white '>
               Simply Get started hiring the best developers in the following steps
             </p>
-
-
           </div>
         </div>
       </section>
-
-
-
 
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -137,11 +138,16 @@ const HireDeveloper = () => {
         </div>
       </div>
 
+      <div className='my-20'>
+        <HireDeveloperCTA setDisplayMultiStepForm={setDisplayMultiStepForm} />
+      </div>
 
-
-
-
-      <MultistepForm />
+      {/* Multi-step form */}
+      {displayMultiStepForm &&
+        <div className='multi-step-form-wrapper'>
+          <MultistepForm setDisplayMultiStepForm={setDisplayMultiStepForm} />
+        </div>
+      }
       <Footer />
 
     </>
