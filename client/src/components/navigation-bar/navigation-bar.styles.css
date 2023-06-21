@@ -55,6 +55,15 @@
     color: white;
 }
 
+.nav-link{
+    transition: .3s;
+}
+
+.nav-link:hover{
+    color: #dbd8d8;
+    
+}
+
 @media (max-width: 640px) {
     .mob-nav-menu-wrapper .mob-nav-menu {
         width: 100%;

@@ -20,22 +20,22 @@ export const NavigationBar = () => {
                     <div className="nav-bar flex items-center gap-x-20">
                         <div>
                             <ul className="flex gap-x-7 text-lg font-normal text-white">
-                                <li>
+                                <li className='nav-link'>
                                     <Link to="/">Home</Link>
                                 </li>
-                                <li>
+                                <li  className='nav-link'>
                                     <Link to="/about">About</Link>
                                 </li>
                                 {/* <li>
                                     <Link to="/services">Services</Link>
                                 </li> */}
-                                <li>
+                                <li className='nav-link'>
                                     <Link to="/career">Career</Link>
                                 </li>
-                                <li>
+                                <li className='nav-link'>
                                     <Link to="/portfolio">Portfolio</Link>
                                 </li>
-                                <li>
+                                <li className='nav-link'>
                                     <Link to="/hire-developer">
                                         Hire Developer
                                     </Link>
