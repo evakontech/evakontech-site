@@ -4,9 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
 
 .container-width {
     margin: auto;
@@ -121,12 +118,13 @@ body {
 .down-arrow {
     animation: jumpInfinite 1.5s infinite;
 }
+
 #message {
     border: none !important;
     border: 1px solid #e8eaed !important;
 }
 
-.contact-us{
+.contact-us {
     width: 80%;
     margin: auto;
 }
