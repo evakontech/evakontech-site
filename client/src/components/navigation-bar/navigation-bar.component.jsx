@@ -13,10 +13,11 @@ export const NavigationBar = () => {
             {/* Nav for desktop(screen size greater then 1280px) */}
             <section className="hidden xl:block ">
                 <div className="flex justify-between items-center">
-                    <div className="logo font-semibold text-3xl text-white">
-                        Evakon Tech
-                    </div>
-
+                    <Link to="/">
+                        <div className="logo font-semibold text-3xl text-white">
+                            Evakon Tech
+                        </div>
+                    </Link>
                     <div className="nav-bar flex items-center gap-x-20">
                         <div>
                             <ul className="flex gap-x-7 text-lg font-normal text-white">
