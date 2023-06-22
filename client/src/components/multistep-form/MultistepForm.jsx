@@ -28,9 +28,7 @@ export const MultistepForm = ({ setDisplayMultiStepForm }) => {
             <main className="flex-grow md:col-start-2 bg-magnolia md:w-[28.5em] md:justify-self-center md:bg-white">
 
 
-                <div className="text-right mt-5 text-2xl mb-[-20px] me-3">
-                    <button onClick={() => setDisplayMultiStepForm(false)}> <i className="fa-solid fa-xmark"></i> </button>
-                </div>
+           
 
                 {isStepComplete ? (
                     <StepComplete />

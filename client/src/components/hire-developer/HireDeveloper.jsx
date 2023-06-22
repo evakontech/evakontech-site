@@ -9,6 +9,7 @@ import { BiTimeFive } from 'react-icons/bi'
 import { Footer } from '../footer/footer.component'
 import { MultistepForm } from '../multistep-form/MultistepForm'
 import { HireDeveloperCTA } from './HireDeveloperCTA';
+import { HireDeveloperForm } from './HireDeveloperForm'
 
 
 
@@ -145,7 +146,7 @@ const HireDeveloper = () => {
       {/* Multi-step form */}
       {displayMultiStepForm &&
         <div className='multi-step-form-wrapper'>
-          <MultistepForm setDisplayMultiStepForm={setDisplayMultiStepForm} />
+          <HireDeveloperForm setDisplayMultiStepForm={setDisplayMultiStepForm} />
         </div>
       }
       <Footer />
