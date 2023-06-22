@@ -43,5 +43,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.hire-developer-form-left-side {
+    position: relative;
+}
+
+.left-side-text {
+    color: white;
+    text-transform: uppercase;
+    /* writing-mode: vertical-lr;
+    text-orientation: upright;*/
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 35%;
+    letter-spacing: 20px;
 }
