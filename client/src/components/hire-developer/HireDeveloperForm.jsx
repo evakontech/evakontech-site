@@ -6,18 +6,18 @@ export const HireDeveloperForm = ({ setDisplayMultiStepForm }) => {
         e.target.type = "date"
     }
     return (
-        <section className='flex lg:w-[70%]  xl:w-[60%] bg-white h-[100vh] md:h-[600px] overflow-scroll'>
+        <section className='flex lg:w-[70%]  xl:w-[60%] bg-white h-[100vh] md:h-[600px] sm:overflow-auto overflow-scroll'>
 
             <div className='bg-[#1662D1] hidden md:flex items-start justify-center w-[20%] hire-developer-form-left-side'>
 
-                <span className="left-side-text text-5xl rotate-[270deg]">
+                <span className="left-side-text text-5xl rotate-[270deg] font-extrabold">
                     EVAKON
                 </span>
 
             </div>
 
 
-            <div className='w-full md:w-[80%] p-5'>
+            <div className='w-full md:w-[80%] py-5 px-8'>
 
                 <div className="text-right text-2xl mb-[-20px] me-3">
                     <button onClick={() => setDisplayMultiStepForm(false)}> <i className="fa-solid fa-xmark"></i> </button>
