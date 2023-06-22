@@ -6,11 +6,11 @@ export const HireDeveloperForm = ({ setDisplayMultiStepForm }) => {
         e.target.type = "date"
     }
     return (
-        <section className='flex lg:w-[70%]  xl:w-[60%] bg-white h-[100vh] md:h-[600px] overflow-scroll'>
+        <section className='flex lg:w-[70%]  xl:w-[60%] bg-white h-[100vh] md:h-[600px] sm:overflow-auto overflow-scroll'>
 
             <div className='bg-[#1662D1] hidden md:flex items-start justify-center w-[20%] hire-developer-form-left-side'>
 
-                <span className="left-side-text text-5xl rotate-[270deg]">
+                <span className="left-side-text text-5xl rotate-[270deg] font-extrabold">
                     EVAKON
                 </span>
 
@@ -23,7 +23,7 @@ export const HireDeveloperForm = ({ setDisplayMultiStepForm }) => {
                     <button onClick={() => setDisplayMultiStepForm(false)}> <i className="fa-solid fa-xmark"></i> </button>
                 </div>
 
-                <h2 className="text-center my-8 text-3xl font-bold leading-tight text-black font-bold">
+                <h2 className="text-center my-8 text-3xl font-bold leading-tight text-black">
                     Hire Developers
                 </h2>
 
@@ -106,7 +106,7 @@ export const HireDeveloperForm = ({ setDisplayMultiStepForm }) => {
                 <div className='text-center'>
                     <button
                         type="button"
-                        className="my-10 md:mt-14 rounded-md bg-[#1563cb] px-10 py-3 text-md font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                        className="my-10 md:mt-14 rounded-md bg-[#1563cb] px-6 py-3 text-md font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                     >
                         Submit
                     </button>
