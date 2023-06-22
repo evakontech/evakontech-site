@@ -1,12 +1,10 @@
-import React from 'react';
-import { NavigationBar } from '../navigation-bar/navigation-bar.component';
-import { Footer } from '../footer/footer.component.jsx';
+import { Navbar, Footer } from '../components';
 
 const Contact = () => {
     return (
         <section className="contact-area-wrapper">
             <div className="hire-developer-area-overlay-bg ">
-                <NavigationBar />
+                <Navbar />
                 <div className="hire-developer-area-text p-10  flex flex-col items-center justify-center text-center">
                     <h1 className="text-4xl mt-15 sm:text-4xl md:text-md text-white font-extrabold">Contact Us</h1>
                 </div>

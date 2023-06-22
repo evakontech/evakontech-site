@@ -1,18 +1,15 @@
-import React from 'react';
-import { NavigationBar } from '../navigation-bar/navigation-bar.component';
-import { Footer } from '../footer/footer.component';
 import { Link } from 'react-router-dom';
-import heroSectionImage from '../../assets/career-side-img.jpg';
 
-import openings from './career.data.json';
-import { SelectionProcess } from './SelectionProcess.jsx';
+import { Navbar, Footer, SelectionProcess } from '../components';
+import { careerHero } from '../assets';
+import openings from '../constants/opening.data.json';
 
 const Career = () => {
     return (
         <>
             <section className="hire-developer-area-wrapper">
                 <div className="hire-developer-area-overlay-bg ">
-                    <NavigationBar />
+                    <Navbar />
                     <div className="hire-developer-area-text  flex flex-col items-center justify-center text-center">
                         <h1 className="text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold">Career</h1>
                         <p className="my-7 text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -60,7 +57,7 @@ const Career = () => {
                         {/* /hero-content */}
 
                         <div className="w-full lg:w-1/2 px-5 text-center hidden lg:block">
-                            <img src={heroSectionImage} alt="Company" className="w-full" />
+                            <img src={careerHero} alt="Company" className="w-full" />
                         </div>
                         {/* /hero-image */}
                     </div>

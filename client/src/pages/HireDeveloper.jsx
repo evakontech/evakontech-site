@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
-import { NavigationBar } from '../navigation-bar/navigation-bar.component';
-import './hire-developer.styles.css';
+import { useState } from 'react';
+import { Navbar, Footer, HireDeveloperCTA, HireDeveloperForm } from '../components';
+
 import { TfiWrite } from 'react-icons/tfi';
 import { BsCodeSlash, BsPersonCheck } from 'react-icons/bs';
 import { BiTimeFive } from 'react-icons/bi';
-import { Footer } from '../footer/footer.component';
-import { HireDeveloperCTA } from './HireDeveloperCTA';
-import { HireDeveloperForm } from './HireDeveloperForm';
 
 const HireDeveloper = () => {
     const [displayMultiStepForm, setDisplayMultiStepForm] = useState(false);
@@ -15,7 +12,7 @@ const HireDeveloper = () => {
         <>
             <section className="hire-developer-area-wrapper">
                 <div className="hire-developer-area-overlay-bg ">
-                    <NavigationBar />
+                    <Navbar />
                     <div className="hire-developer-area-text flex flex-col items-center justify-center text-center">
                         <h1 className="text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold">
                             Hire Developer

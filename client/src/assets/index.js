@@ -1,5 +1,5 @@
-import background from './backgroung.jpg';
-import joinUs from './join-us.jpg';
-import team from './team.jpg.jpg';
+import background from './background.jpg';
+import careerHero from './careerHero.jpg';
+import careerTeam from './careerTeam.jpg';
 
-export { background, joinUs, team };
+export { background, careerHero, careerTeam };

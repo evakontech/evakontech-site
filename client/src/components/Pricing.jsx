@@ -1,4 +1,4 @@
-export const Pricing = () => {
+const Pricing = () => {
     return (
         <section className="relative overflow-hidden py-16 bg-gray-100">
             <div className="relative container-width px-4">
@@ -138,3 +138,5 @@ export const Pricing = () => {
         </section>
     );
 };
+
+export default Pricing;

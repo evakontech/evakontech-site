@@ -1,5 +1,4 @@
 import { Rocket, SearchCode, Smartphone } from 'lucide-react';
-import React from 'react';
 
 const Services = () => (
     <section id="services" className="container-width py-16">

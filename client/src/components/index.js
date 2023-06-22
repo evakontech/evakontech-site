@@ -11,8 +11,8 @@ import CTA from './CTA';
 import Collaboration from './Collaboration';
 import SelectionProcess from './SelectionProcess';
 import BusinessGrowth from './BusinessGrowth';
-import HireDeveloperCTA from './hire-developer/HireDeveloperCTA';
-import HireDeveloperForm from './hire-developer/HireDeveloperForm';
+import HireDeveloperCTA from './HireDeveloperCTA';
+import HireDeveloperForm from './HireDeveloperForm';
 
 export {
     Welcome,

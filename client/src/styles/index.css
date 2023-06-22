@@ -149,7 +149,7 @@ html {
 }
 
 .hire-developer-area-wrapper {
-    background-image: url('../../assets/banner.jpg');
+    background-image: url('../assets/banner.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 30vh;
@@ -196,7 +196,7 @@ html {
 /*   welcome-area.styles.css   */
 
 .welcome-area-wrapper {
-    background-image: url('../../assets/test.jpg');
+    background-image: url('../assets/background.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;

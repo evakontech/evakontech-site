@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { NavigationBar } from '../navigation-bar/navigation-bar.component';
-import openings from './career.data.json';
+import { Navbar } from '../components';
+import openings from '../constants/opening.data.json';
 
 const Opening = () => {
     let { opening } = useParams();
@@ -9,13 +8,8 @@ const Opening = () => {
 
     return (
         <section>
-            {/* <div className="w-full h-full navigation-container">
-                
-            </div> */}
-            {/* /navbar */}
-
             <section className="bg-[#1563cb] px-10 h-[300px]">
-                <NavigationBar />
+                <Navbar />
                 <div className="container-width flex justify-center flex-col h-full">
                     <h2 className="text-white text-4xl font-semibold mb-3">{currentOpening.position}</h2>
                     <div className="text-white flex items-center">

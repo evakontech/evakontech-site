@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import { NavigationBar } from '../navigation-bar/navigation-bar.component';
+import { Navbar } from '../components';
 
-const ApplyForm = () => {
+const Apply = () => {
     return (
         <section>
             <section className="bg-[#1563cb] px-10 h-[300px]">
-                <NavigationBar />
+                <Navbar />
                 <div className="container-width flex justify-center flex-col h-full">
                     <h2 className="text-white text-4xl font-semibold mb-3">Job Application Form</h2>
                     <div className="text-white flex items-center">
@@ -147,4 +147,4 @@ const ApplyForm = () => {
     );
 };
 
-export default ApplyForm;
+export default Apply;

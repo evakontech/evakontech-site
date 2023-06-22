@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { NavigationBar } from '../navigation-bar/navigation-bar.component';
-import './welcome-area.styles.css';
 import { useRef } from 'react';
+
+import Navbar from './Navbar';
 
 const Welcome = () => {
     const nextSectionRef = useRef(null);
@@ -15,7 +15,7 @@ const Welcome = () => {
     return (
         <section className="welcome-area-wrapper">
             <div className="welcome-area-overlay-bg">
-                <NavigationBar />
+                <Navbar />
                 <div className="welcome-area-text flex flex-col items-center justify-center text-center">
                     <h1 className="text-4xl sm:text-6xl md:text-md text-white font-extrabold">
                         Crafting Intuitive Interfaces
