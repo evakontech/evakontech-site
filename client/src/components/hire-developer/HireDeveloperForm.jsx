@@ -17,13 +17,13 @@ export const HireDeveloperForm = ({ setDisplayMultiStepForm }) => {
             </div>
 
 
-            <div className='w-full md:w-[80%] py-5 px-8'>
+            <div className='w-full md:w-[80%] p-5'>
 
                 <div className="text-right text-2xl mb-[-20px] me-3">
                     <button onClick={() => setDisplayMultiStepForm(false)}> <i className="fa-solid fa-xmark"></i> </button>
                 </div>
 
-                <h2 className="text-center my-8 text-3xl font-bold leading-tight text-black font-bold">
+                <h2 className="text-center my-8 text-3xl font-bold leading-tight text-black">
                     Hire Developers
                 </h2>
 
@@ -106,7 +106,7 @@ export const HireDeveloperForm = ({ setDisplayMultiStepForm }) => {
                 <div className='text-center'>
                     <button
                         type="button"
-                        className="my-10 md:mt-14 rounded-md bg-[#1563cb] px-10 py-3 text-md font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                        className="my-10 md:mt-14 rounded-md bg-[#1563cb] px-6 py-3 text-md font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                     >
                         Submit
                     </button>
