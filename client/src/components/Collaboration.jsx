@@ -10,7 +10,7 @@ const Collaboration = () => {
             <div className="w-[90%] md:w-3/4 lg:w-3/5 m-auto">
                 {/* <p className="text-4xl sm:text-6xl font-extrabold"></p> */}
                 <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl md:mx-auto">
-                    we are working with
+                    Our Notable Partners
                 </h2>
                 <p className="mt-9 text-slate-600">
                     We drive digital transformation for visionary companies and clients, propelling businesses to new
