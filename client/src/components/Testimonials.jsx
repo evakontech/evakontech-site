@@ -30,13 +30,17 @@ const Testimonials = () => {
     }, []);
 
     return (
-        <div>
+        <div className='py-32 '>
             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
             <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
             <section>
-                <h1 className="text-center font-bold text-5xl m-10 ">What our client says?</h1>
+                <div className="w-[90%]  md:w-3/4 lg:w-3/5 m-auto text-center">
+                    <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl">
+                        What our client says?
+                    </h2>
+                </div>
                 <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
                     <div className="swiper-container overflow-hidden">
                         <div className="swiper-wrapper">

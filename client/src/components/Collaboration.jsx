@@ -7,8 +7,11 @@ import 'swiper/css/pagination';
 const Collaboration = () => {
     return (
         <section className="container-width py-32 text-center">
-            <div className="w-4/5 md:w-3/4 lg:w-3/5 m-auto">
-                <p className="text-4xl sm:text-6xl font-extrabold">we are working with</p>
+            <div className="w-[90%] md:w-3/4 lg:w-3/5 m-auto">
+                {/* <p className="text-4xl sm:text-6xl font-extrabold"></p> */}
+                <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl md:mx-auto">
+                    we are working with
+                </h2>
                 <p className="mt-9 text-slate-600">
                     We drive digital transformation for visionary companies and clients, propelling businesses to new
                     heights. Experience our innovative solutions, where expertise meets elegance on the path to success.

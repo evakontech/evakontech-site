@@ -1,11 +1,21 @@
 import { Rocket, SearchCode, Smartphone } from 'lucide-react';
 
 const Services = () => (
-    <section id="services" className="container-width py-16">
+    <section id="services" className="container-width py-32">
         {/* Title  */}
-        <div className="w-full lg:w-4/5 m-auto">
+        {/* <div className="w-full lg:w-4/5 m-auto">
             <p className="text-4xl sm:text-6xl font-extrabold text-center">we provide the best digital services</p>
             <p className="mt-4 text-center text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste
+                ipsum officiis deleniti asperiores sit.
+            </p>
+        </div> */}
+
+        <div className="w-[90%]  md:w-3/4 lg:w-3/5 m-auto text-center">
+            <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl">
+                we provide the best digital services
+            </h2>
+            <p className="mt-9 text-slate-600">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste
                 ipsum officiis deleniti asperiores sit.
             </p>
