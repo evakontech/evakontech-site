@@ -37,22 +37,25 @@ const Career = () => {
                                 voluptates odit alias facilis. Blanditiis repellendus sunt ullam rem eveniet atque aut
                                 consequatur quam deleniti fuga ab.
                             </p>
-                            <a href="#current-openings">
-                                <button
-                                    type="button"
-                                    className="mt-8 me-6 rounded-md bg-[#1563cb] transition px-4 py-3 text-md font-semibold text-white shadow-sm border-2 hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                                >
-                                    See open positions
-                                </button>
-                            </a>
-                            <a href="#current-openings">
-                                <button
-                                    type="button"
-                                    className="mt-8 rounded-md transition bg-transparent px-4 py-3 text-md font-semibold text-gray-600 border-2 border-[#1563cb] hover:border-transparent shadow-sm  hover:bg-black/80 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                                >
-                                    Learn about internships
-                                </button>
-                            </a>
+
+                            <div className='flex gap-5 flex-wrap justify-center lg:justify-start items-center mt-10'>
+                                <a href="#current-openings">
+                                    <button
+                                        type="button"
+                                        className="rounded-md bg-[#1563cb] transition w-[250px] py-3 text-md font-semibold text-white shadow-sm border-2 hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                    >
+                                        See open positions
+                                    </button>
+                                </a>
+                                <a href="#current-openings">
+                                    <button
+                                        type="button"
+                                        className="rounded-md transition bg-transparent w-[250px] py-3 text-md font-semibold text-gray-600 border-2 border-[#1563cb] hover:border-transparent shadow-sm  hover:bg-black/80 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                                    >
+                                        Learn about internships
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                         {/* /hero-content */}
 
@@ -131,10 +134,10 @@ const Career = () => {
                             <tbody>
                                 {openings.map((opening) => (
                                     <tr key={opening.id} className="border-b-2 border-slate-200">
-                                        <td className="p-5">{opening.position}</td>
+                                        <td className="p-5 w-[60%]">{opening.position}</td>
                                         <td className="p-5 text-center hidden sm:table-cell">{opening.openings}</td>
                                         <td className="p-5 text-center hidden md:table-cell">{opening.deadline}</td>
-                                        <td className="p-5 text-center">
+                                        <td className="px-0 py-5 md:p-5 text-center">
                                             <Link
                                                 to={`${opening['page_url']}/`}
                                                 className="text-white bg-[#1563cb] py-2 px-4 rounded-md font-medium hover:bg-[#0f4fa8] transition-colors duration-200"

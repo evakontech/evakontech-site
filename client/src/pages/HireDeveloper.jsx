@@ -13,7 +13,7 @@ const HireDeveloper = () => {
             <section className="hire-developer-area-wrapper">
                 <div className="hire-developer-area-overlay-bg ">
                     <Navbar />
-                    <div className="hire-developer-area-text flex flex-col items-center justify-center text-center">
+                    <div className="hire-developer-area-text flex flex-col items-center justify-center text-center py-10">
                         <h1 className="text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold">
                             Hire Developer
                         </h1>

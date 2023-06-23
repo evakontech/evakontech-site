@@ -13,15 +13,19 @@ const FAQs = () => {
     };
 
     return (
-        <section className="mx-auto max-w-7xl px-2 py-10 m- md:px-0">
+        <section className="mx-auto max-w-7xl px-2 md:px-0">
             <div>
-                <div className="mx-auto max-w-2xl lg:text-center">
-                    <h2 className="text-2xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">FAQs</h2>
-                    <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-600 lg:mx-auto">
+                <div className="w-[90%]  md:w-3/4 lg:w-3/5 m-auto text-center">
+                    <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl">
+                        FAQs
+                    </h2>
+                    <p className="mt-9 text-slate-600">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, assumenda
                     </p>
                 </div>
-                <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16">
+
+
+                <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16 px-4 md:px-0">
                     <div
                         className={`cursor-pointer rounded-md border border-gray-400  transition-all duration-200 ${expandedIndex === 0 ? 'border-blue-500' : ''
                             }`}

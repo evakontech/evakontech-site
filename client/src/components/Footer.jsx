@@ -46,7 +46,7 @@ const Footer = () => {
                 <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
                     <div className="mb-8 lg:mb-0">
                         <p className="mb-6 text-2xl font-semibold text-gray-700">Company</p>
-                        <ul className="flex flex-col space-y-4 text-[1.2rem] font-medium text-gray-500">
+                        <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
                             <li>
                                 <Link to={'/about'}>About us</Link>
                             </li>
@@ -95,7 +95,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="my-5" />
-            <div className="mx-auto max-w-6xl items-center justify-center md:justify-between px-4 py-3 md:flex lg:px-0">
+            <div className="mx-auto max-w-6xl items-center justify-center md:justify-between px-4 py-3 md:flex lg:px-0 text-center">
                 <div className="inline-flex items-center">
                     <span className="ml-4 text-2xl font-bold">Evakon Tech</span>
                 </div>

@@ -157,6 +157,19 @@ html {
     position: relative;
 }
 
+@media (max-width:767px) {
+    .hire-developer-area-text {
+        width: 90%;
+        padding: 50px 0;
+    }
+
+    .hire-developer-area-wrapper {
+        height: 40vh;
+    }
+}
+
+
+
 /*   .hire-dev-heading{
             display:   flex   !important;
             justify-content:   center   !important;
@@ -193,6 +206,7 @@ html {
     bottom: 35%;
     letter-spacing: 20px;
 }
+
 /*   welcome-area.styles.css   */
 
 .welcome-area-wrapper {
@@ -318,7 +332,12 @@ html {
     .welcome-area-text {
         width: 90%;
     }
+
+    .mouse-arrow-button{
+    margin-bottom: 30px;
+    }
 }
+
 .navigation-container {
     background-color: rgba(21, 99, 203, 0.9);
 }
@@ -338,6 +357,7 @@ html {
     width: 500px;
     background: white !important;
 }
+
 .mob-nav-menu-links {
     height: 80% !important;
     display: flex;
@@ -353,12 +373,14 @@ html {
 .open-nav {
     margin-right: 0px;
 }
+
 .cross-btn {
     justify-content: right !important;
 }
 
 .mob-nav-contact-btn button {
-    /*   border:   1px   solid   black;   */
+    border: 1px solid #1563cb;
+    background-color: #1563cb;
     color: white;
     margin-top: 50px;
     width: 200px;
@@ -370,10 +392,6 @@ html {
     align-items: center;
     font-size: 1.5rem;
     color: rgb(62, 62, 62);
-}
-
-.mob-nav-contact-btn button:hover {
-    color: white;
 }
 
 @media (max-width: 640px) {
