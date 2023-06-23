@@ -60,7 +60,7 @@ const Career = () => {
                         {/* /hero-content */}
 
                         <div className="w-full lg:w-1/2 px-5 text-center hidden lg:block">
-                            <img src={careerHero} alt="Company" className="w-full" />
+                            <img src="https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8867.jpg?w=740&t=st=1687508444~exp=1687509044~hmac=e23c4aa6728a14bce03e90f7278584944041a268de093cc266b268965d588d99" alt="Company" className="w-full" />
                         </div>
                         {/* /hero-image */}
                     </div>
