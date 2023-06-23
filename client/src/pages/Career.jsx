@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import { Navbar, Footer, SelectionProcess } from '../components';
-import { careerHero } from '../assets';
+import { careerHero, careerTeam } from '../assets';
 import openings from '../constants/opening.data.json';
 
 const Career = () => {
@@ -38,7 +38,7 @@ const Career = () => {
                                 consequatur quam deleniti fuga ab.
                             </p>
 
-                            <div className='flex gap-5 flex-wrap justify-center lg:justify-start items-center mt-10'>
+                            <div className="flex gap-5 flex-wrap justify-center lg:justify-start items-center mt-10">
                                 <a href="#current-openings">
                                     <button
                                         type="button"
@@ -60,7 +60,7 @@ const Career = () => {
                         {/* /hero-content */}
 
                         <div className="w-full lg:w-1/2 px-5 text-center hidden lg:block">
-                            <img src="https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8867.jpg?w=740&t=st=1687508444~exp=1687509044~hmac=e23c4aa6728a14bce03e90f7278584944041a268de093cc266b268965d588d99" alt="Company" className="w-full" />
+                            <img src={careerHero} alt="Company" className="w-full" />
                         </div>
                         {/* /hero-image */}
                     </div>
@@ -73,11 +73,7 @@ const Career = () => {
                 <section className="py-10 px-3">
                     <div className="container-width flex items-center max-w-3xl lg:max-w-full gap-x-10">
                         <div className="w-full lg:w-1/2 px-5 text-center hidden lg:block">
-                            <img
-                                src="https://img.freepik.com/free-vector/forming-team-leadership-concept-illustration_114360-13973.jpg?size=626&ext=jpg"
-                                alt="Company"
-                                className="w-full"
-                            />
+                            <img src={careerTeam} alt="Company" className="w-full" />
                         </div>
                         {/* /section-image */}
 

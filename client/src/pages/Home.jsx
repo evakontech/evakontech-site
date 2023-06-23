@@ -1,4 +1,4 @@
-import { Navbar, Welcome, Collaboration, Footer, Feature, CTA, FAQs, Services, Testimonials } from '../components';
+import { Welcome, Collaboration, Footer, Feature, CTA, FAQs, Services, Testimonials } from '../components';
 
 const Home = () => {
     return (
