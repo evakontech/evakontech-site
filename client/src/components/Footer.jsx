@@ -1,3 +1,5 @@
+import styles from '../styles';
+import { footerLinks } from '../constants';
 import { useState } from 'react';
 import { useForm } from '@formspree/react';
 import { Link } from 'react-router-dom';
@@ -17,21 +19,20 @@ const Footer = () => {
     }
 
     return (
-        <footer className="container-width pt-20 pb-10">
-            <div className="mx-auto flex max-w-6xl flex-col items-start space-x-8 md:flex-row">
-                <div className="w-full px-4 md:w-1/2 lg:px-0">
-                    <h1 className="max-w-sm text-3xl font-bold">Subscribe to our Newsletter</h1>
-                    <form onSubmit={handleSubscribe} className="mt-4 inline-flex w-full items-center md:w-3/4">
+        <footer className={`${styles.flexCenter} ${styles.paddingY} flex-col sm:px-16 px-6`}>
+            <div className={`${styles.flexStart} lg:flex-row flex-col mb-8 w-full`}>
+                <div className="flex-1 flex flex-col justify-start mr-10">
+                    <h2 className="text-3xl font-bold mb-4">Subscribe to our Newsletter</h2>
+                    <form className="flex flex-1" onSubmit={handleSubscribe}>
                         <input
-                            className="flex h-10 w-full outline-none rounded-md border border-black/20 bg-transparent px-3 py-2 text-md placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                            className="h-10 w-64 rounded-md border-2 border-gray-700 bg-transparent px-3 py-2 text-md placeholder:text-gray-600 disabled:cursor-not-allowed disabled:opacity-50"
                             type="email"
-                            placeholder="Email"
+                            placeholder="Enter your email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                        ></input>
+                        />
                         <button
-                            type="submit"
-                            className="ml-4 bg-[#1563cb] h-10 w-12 rounded-full text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                            className="transition bg-[#1563cb] hover:bg-black text-white h-10 w-11 rounded-md ml-2"
                             disabled={state.submitting}
                         >
                             <i className="fa-solid fa-chevron-right"></i>
@@ -43,68 +44,39 @@ const Footer = () => {
                         </div>
                     )}
                 </div>
-                <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
-                    <div className="mb-8 lg:mb-0">
-                        <p className="mb-6 text-2xl font-semibold text-gray-700">Company</p>
-                        <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
-                            <li>
-                                <Link to={'/about'}>About us</Link>
-                            </li>
-                            <li>
-                                <Link to={'/team'}>Our Team</Link>
-                            </li>
-                            <li>
-                                <Link to={'/vision'}>Our Vision</Link>
-                            </li>
-                            <li>
-                                <Link to={'/product'}>Our Products</Link>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <div className="mb-8 lg:mb-0">
-                        <p className="mb-6 text-2xl font-semibold text-gray-700">Join</p>
-                        <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
-                            <li>
-                                <Link to={'/hire-remote-developer'}>Hire Remote Developer</Link>
-                            </li>
-                            <li>
-                                <Link to={'/career'}>Career at Evakon</Link>
-                            </li>
-                            <li>
-                                <Link to={'/open-source'}>Open Source</Link>
-                            </li>
-                        </ul>
-                    </div>
+                <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10 gap-7">
+                    {footerLinks.map((footerLink, idx) => (
+                        <div className="flex flex-col sm:my-0 my-4 min-w-[150px]" key={idx}>
+                            <h4 className="font-poppins text-2xl font-semibold mb-1">{footerLink.title}</h4>
+                            {/* /footer-link-title */}
+                            <ul className="list-none mt-4">
+                                {footerLink.links.map((link, idx) => (
+                                    <li
+                                        key={idx}
+                                        className={`font-poppins font-medium transition text-lg text-slate-600 hover:text-[#1563cb] cursor-pointer ${
+                                            idx !== footerLink.links.length - 1 ? 'mb-3' : 'mb-0'
+                                        }`}
+                                    >
+                                        <Link to={link.destination}>{link.name}</Link>
+                                    </li>
+                                ))}
+                            </ul>
+                            {/* /footer-links */}
+                        </div>
+                    ))}
+                </div>
+                {/* /footer-links-container */}
+            </div>
+            {/* /footer-top-container */}
 
-                    <div className="mb-8 lg:mb-0">
-                        <p className="mb-6 text-2xl font-semibold text-gray-700">Connection</p>
-                        <ul className="flex flex-col space-y-4 text-[1rem] font-medium text-gray-500">
-                            <li>
-                                <Link to={'/blog'}>Blog</Link>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/evakontech/">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/">Facebook</a>
-                            </li>
-                            <a href="mailto:info@evakon.tech">Contact Us</a>
-                        </ul>
-                    </div>
-                </div>
+            <div className="w-full flex justify-between items-center sm:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
+                <h5 className="text-xl font-bold">Evakon Tech</h5>
+                <p className="font-poppins font-normal text-center text-base sm:mb-0 mb-2">
+                    Copyright &copy; {new Date().getFullYear()} EvakonTech. All Rights Reserved.
+                </p>
             </div>
-            <hr className="my-5" />
-            <div className="mx-auto max-w-6xl items-center justify-center md:justify-between px-4 py-3 md:flex lg:px-0 text-center">
-                <div className="inline-flex items-center">
-                    <span className="ml-4 text-2xl font-bold">Evakon Tech</span>
-                </div>
-                <div className="mt-4 md:mt-0">
-                    <p className="text-sm font-medium text-gray-500">
-                        © {new Date().getFullYear()} Evakon Tech. All rights reserved.
-                    </p>
-                </div>
-            </div>
+            {/* /footer-bottom-container */}
         </footer>
     );
 };

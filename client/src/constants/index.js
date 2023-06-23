@@ -39,7 +39,7 @@ export const stats = [
     },
 ];
 
-export const footerLink = [
+export const footerLinks = [
     {
         title: 'Company',
         links: [
