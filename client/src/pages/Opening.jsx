@@ -8,24 +8,32 @@ const Opening = () => {
 
     return (
         <section>
-            <section className="bg-[#1563cb] px-10 h-[300px]">
-                <Navbar />
-                <div className="container-width flex justify-center flex-col h-full">
-                    <h2 className="text-white text-4xl font-semibold mb-3">{currentOpening.position}</h2>
-                    <div className="text-white flex items-center">
-                        <Link to={'/'} className="transition text-base hover:underline">
-                            Home
-                        </Link>
-                        <span className="mx-2 text-xl font-black">&#183;</span>
-                        <Link to={'/'} className="transition text-base hover:underline">
-                            Career
-                        </Link>
-                        <span className="mx-2 text-xl font-black">&#183;</span>
-                        <p to={'/'} className="text-base">
-                            {currentOpening.position}
-                        </p>
+            <section className="hire-developer-area-wrapper">
+                <div className="hire-developer-area-overlay-bg ">
+                    <Navbar />
+                    {/* <div className="hire-developer-area-text  flex flex-col items-center justify-center text-center">
+                        <h1 className="text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold">Career</h1>
+                        <p className="my-7 text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div> */}
+
+                    <div className="hire-developer-area-text  flex justify-center flex-col">
+                        <h2 className="text-white text-4xl font-semibold mb-3">{currentOpening.position}</h2>
+                        <div className="text-white flex items-center">
+                            <Link to={'/'} className="transition text-base hover:underline">
+                                Home
+                            </Link>
+                            <span className="mx-2 text-xl font-black">&#183;</span>
+                            <Link to={'/'} className="transition text-base hover:underline">
+                                Career
+                            </Link>
+                            <span className="mx-2 text-xl font-black">&#183;</span>
+                            <p to={'/'} className="text-base">
+                                {currentOpening.position}
+                            </p>
+                        </div>
                     </div>
                 </div>
+
             </section>
 
             {/* /hero-section */}
@@ -80,14 +88,16 @@ const Opening = () => {
                         </div>
                     </div>
 
-                    <Link to="/job-apply-form">
-                        <button
-                            type="button"
-                            className="rounded-md bg-[#1563cb] transition px-16 py-3 text-md font-semibold text-white shadow-sm border-2 hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                        >
-                            Apply
-                        </button>
-                    </Link>
+                    <div className='text-center lg:text-left'>
+                        <Link to="/job-apply-form">
+                            <button
+                                type="button"
+                                className="rounded-md bg-[#1563cb] transition px-16 py-3 text-md font-semibold text-white shadow-sm border-2 hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                            >
+                                Apply
+                            </button>
+                        </Link>
+                    </div>
                 </div>
             </section>
             {/* /content-section */}
