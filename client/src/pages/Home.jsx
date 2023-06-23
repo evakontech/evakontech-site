@@ -1,4 +1,5 @@
-import { Navbar, Welcome, Collaboration, Footer, Feature, CTA, FAQs, Services, Testimonials } from '../components';
+import { Welcome, Collaboration, Footer, Feature, CTA, FAQs, Services, Testimonials } from '../components';
+import { TrustBox } from '../components/TrustPilot.jsx';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Services />
             <FAQs />
             <Testimonials />
+            <TrustBox />
             <CTA />
             <Footer />
         </>
