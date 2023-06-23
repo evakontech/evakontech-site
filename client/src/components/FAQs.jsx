@@ -23,9 +23,8 @@ const FAQs = () => {
                 </div>
                 <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16">
                     <div
-                        className={`cursor-pointer rounded-md border border-gray-400 shadow-lg transition-all duration-200 ${
-                            expandedIndex === 0 ? 'border-blue-500' : ''
-                        }`}
+                        className={`cursor-pointer rounded-md border border-gray-400  transition-all duration-200 ${expandedIndex === 0 ? 'border-blue-500' : ''
+                            }`}
                     >
                         <button
                             type="button"
@@ -51,9 +50,8 @@ const FAQs = () => {
                     {Array.from({ length: 5 }).map((_, i) => (
                         <div
                             key={i}
-                            className={`cursor-pointer rounded-md border border-gray-400 transition-all duration-200 ${
-                                expandedIndex === i + 1 ? 'border-blue-500' : ''
-                            }`}
+                            className={`cursor-pointer rounded-md border border-gray-400 transition-all duration-200 ${expandedIndex === i + 1 ? 'border-blue-500' : ''
+                                }`}
                         >
                             <button
                                 type="button"
