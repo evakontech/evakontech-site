@@ -55,7 +55,7 @@ const Collaboration = () => {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <div className="w-44 h-32  rounded-sm">
+                        <div className="w-44 h-36  rounded-sm">
                             <img
                                 src="https://i.ibb.co/RT90RWc/Frame-30.jpg"
                                 alt="Company Name"
