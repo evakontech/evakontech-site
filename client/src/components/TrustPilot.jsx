@@ -12,6 +12,7 @@ export const TrustBox = () => {
                 data-min-review-count="10"
                 data-without-reviews-preferred-string-id="2"
                 data-style-alignment="center"
+                style={{ maxWidth: '100%' }}
             >
                 <p className="mb-1">Check out Evakon on</p>
                 <a
