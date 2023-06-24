@@ -114,9 +114,9 @@ const About = () => {
                             />
 
                             <div className="mt-5 ps-2">
-                                <p className="text-lg font-bold">John Doe</p>
+                                <p className="text-lg font-bold">Sudip Kumar Mahato</p>
 
-                                <p className="text-sm font-semibold">WEB DEVELOPER</p>
+                                <p className="text-sm font-semibold">Co-Founder</p>
                             </div>
                         </div>
                     </div>
