@@ -54,7 +54,7 @@ const Collaboration = () => {
                         </div>
                     </SwiperSlide>
 
-                    {/* <SwiperSlide>
+                    <SwiperSlide>
                         <div className="w-44 h-32  rounded-sm">
                             <img
                                 src="https://edigitalnepal.com/wms/files/ws-profile/1677734208604_ff899a7d-18b2-4baf-977b-5a76abb5fa64.jpg"
@@ -62,7 +62,7 @@ const Collaboration = () => {
                                 className=" w-full object-contain h-full"
                             />
                         </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="w-44 h-32  rounded-sm">
@@ -74,7 +74,7 @@ const Collaboration = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="w-44 h-32  rounded-sm">
+                        <div className="w-44 h-28  rounded-sm">
                             <img
                                 src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/295811344_170850822117576_6131752348213846873_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=n-RkXdPNC80AX9ZOIml&_nc_ht=scontent.fktm16-1.fna&oh=00_AfAYprAMNs3BJmQQbOmdJVWyJOvrlHLH8gS-Ke2WZ7iTlQ&oe=649C07E1"
                                 alt="Company Name"
