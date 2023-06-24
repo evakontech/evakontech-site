@@ -1,4 +1,4 @@
-export const navLink = [
+export const navLinks = [
     {
         title: 'Home',
         destination: '/',
@@ -17,7 +17,7 @@ export const navLink = [
     },
     {
         title: 'Hire Developer',
-        destination: '//hire-developer',
+        destination: '/hire-developer',
     },
 ];
 

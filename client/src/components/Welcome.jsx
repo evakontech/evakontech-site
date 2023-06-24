@@ -18,7 +18,7 @@ const Welcome = () => {
                 <Navbar />
                 <div className="welcome-area-text flex flex-col items-center justify-center text-center">
                     <h1 className="text-4xl sm:text-6xl md:text-md text-white font-extrabold">
-                        Crafting Intuitive Interfaces
+                        Crafting Intuitive <span className="stroke-text"> Interfaces </span>
                     </h1>
                     <p className="my-7 text-white ">
                         Your ultimate partner in remote excellence. We're on a mission to revolutionize the software
