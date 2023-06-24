@@ -316,6 +316,21 @@ html {
     }
 }
 
+
+
+@media (max-width: 500px) {
+    .welcome-area-wrapper {
+        background-image: none;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+}
+
+
 @media (max-width: 768px) {
     .welcome-area-text {
         width: 90%;

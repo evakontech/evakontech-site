@@ -19,10 +19,9 @@ const Career = () => {
                 <section className="my-16">
                     <div className="container-width flex items-center ">
                         <div className="w-full lg:w-4/5 m-auto text-center lg:text-left max-w-3xl lg:max-w-2xl">
-                            <p className="text-sm font-medium text-gray-400">CAREERS</p>
                             <h1 className="text-4xl sm:text-6xl leading-tight font-bold max-w-2xl mb-5 mt-3 mx-auto lg:ms-0">
-                                <span className="text-slate-900">Join us at </span>
-                                <span className="text-[#1563CB] ml-1">Evakon Tech</span>
+                                <span className="text-slate-900">Join the </span>
+                                <span className="text-[#1563CB] ml-1">Evakon Tech Team</span>
                             </h1>
 
                             <p className="text-slate-900 text-base mb-4 md:text-lg font-medium ">

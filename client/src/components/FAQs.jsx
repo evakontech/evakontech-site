@@ -20,7 +20,7 @@ const FAQs = () => {
                         FAQs
                     </h2>
                     <p className="mt-9 text-slate-600">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, assumenda
+                        Learn more about us.
                     </p>
                 </div>
 
@@ -35,7 +35,7 @@ const FAQs = () => {
                             className="flex w-full items-center justify-between px-4 py-5 sm:p-6"
                             onClick={() => handleToggle(0)}
                         >
-                            <span className="flex text-lg font-semibold text-black">How do I get started?</span>
+                            <span className="flex text-lg font-semibold text-black">What is Evakon Tech?</span>
                             {expandedIndex === 0 ? (
                                 <ChevronUp className="h-5 w-5 text-gray-500" />
                             ) : (
@@ -45,13 +45,12 @@ const FAQs = () => {
                         {expandedIndex === 0 && (
                             <div className="px-4 pb-5 sm:px-6 sm:pb-6">
                                 <p className="text-gray-500">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam adipisci
-                                    iusto aperiam? Sint asperiores sequi nobis inventore ratione deleniti?
+                                    Evakon is software development company. We're on a mission to improve the software industry by promoting remote work, fostering collaboration, and igniting innovation. Step into a world of limitless possibilities and shape the future together.
                                 </p>
                             </div>
                         )}
                     </div>
-                    {Array.from({ length: 5 }).map((_, i) => (
+                    {Array.from({ length: 3 }).map((_, i) => (
                         <div
                             key={i}
                             className={`cursor-pointer rounded-md border border-gray-400 transition-all duration-200 ${expandedIndex === i + 1 ? 'border-blue-500' : ''
@@ -65,7 +64,8 @@ const FAQs = () => {
                                 {i === 0 && (
                                     <>
                                         <span className="flex text-lg font-semibold text-black">
-                                            How do I apply for a software company vacancy?
+                                            What skills are important for software company vacancies?
+
                                         </span>
                                         {expandedIndex === 1 ? (
                                             <ChevronUp className="h-5 w-5 text-gray-500" />
@@ -74,12 +74,14 @@ const FAQs = () => {
                                         )}
                                     </>
                                 )}
+
+
                                 {i === 1 && (
                                     <>
                                         <span className="flex text-start text-lg font-semibold text-black">
-                                            What are the requirements for software company vacancies?
+                                            How do I apply for a software company vacancy?
                                         </span>
-                                        {expandedIndex === 2 ? (
+                                        {expandedIndex === 4 ? (
                                             <ChevronUp className="h-5 w-5 text-gray-500" />
                                         ) : (
                                             <ChevronDown className="h-5 w-5 text-gray-500" />
@@ -89,32 +91,7 @@ const FAQs = () => {
                                 {i === 2 && (
                                     <>
                                         <span className="flex text-start text-lg font-semibold text-black">
-                                            How can I showcase my projects in a software company application?
-                                        </span>
-                                        {expandedIndex === 3 ? (
-                                            <ChevronUp className="h-5 w-5 text-gray-500" />
-                                        ) : (
-                                            <ChevronDown className="h-5 w-5 text-gray-500" />
-                                        )}
-                                    </>
-                                )}
-                                {i === 3 && (
-                                    <>
-                                        <span className="flex text-start text-lg font-semibold text-black">
-                                            What skills are important for software company vacancies?
-                                        </span>
-                                        {expandedIndex === 4 ? (
-                                            <ChevronUp className="h-5 w-5 text-gray-500" />
-                                        ) : (
-                                            <ChevronDown className="h-5 w-5 text-gray-500" />
-                                        )}
-                                    </>
-                                )}
-                                {i === 4 && (
-                                    <>
-                                        <span className="flex text-start text-lg font-semibold text-black">
-                                            How do software company interviews typically work?
-                                        </span>
+                                            Does your company have internship opportunities?                                        </span>
                                         {expandedIndex === 5 ? (
                                             <ChevronUp className="h-5 w-5 text-gray-500" />
                                         ) : (
@@ -127,39 +104,26 @@ const FAQs = () => {
                                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
                                     {i === 0 && (
                                         <p className="text-gray-500">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam
-                                            adipisci iusto aperiam? Sint asperiores sequi nobis inventore ratione
-                                            deleniti?
+                                            Yes, our company offers internship opportunities. We believe in providing valuable learning experiences for aspiring professionals in the software industry.
                                         </p>
                                     )}
                                     {i === 1 && (
                                         <p className="text-gray-500">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam
-                                            adipisci iusto aperiam? Sint asperiores sequi nobis inventore ratione
-                                            deleniti?
+                                            To apply, visit our career page, review the job details, prepare your resume and cover letter, and submit them through the specified channel. We'll review and contact shortlisted candidates.
                                         </p>
                                     )}
-                                    {i === 2 && (
-                                        <p className="text-gray-500">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam
-                                            adipisci iusto aperiam? Sint asperiores sequi nobis inventore ratione
-                                            deleniti?
-                                        </p>
-                                    )}
-                                    {i === 3 && (
-                                        <p className="text-gray-500">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam
-                                            adipisci iusto aperiam? Sint asperiores sequi nobis inventore ratione
-                                            deleniti?
-                                        </p>
-                                    )}
-                                    {i === 4 && (
-                                        <p className="text-gray-500">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam
-                                            adipisci iusto aperiam? Sint asperiores sequi nobis inventore ratione
-                                            deleniti?
-                                        </p>
-                                    )}
+                                    {
+                                        i === 2 && (
+                                            <p className="text-gray-500">
+                                                <strong>Selection:</strong> Candidates are shortlisted based on their resumes and qualifications. <br />
+                                                <strong>Interviews:</strong> Candidates undergo multiple rounds of interviews to assess their skills and fit for the role. <br />
+                                                <strong>Onboarding:</strong> Successful candidates are introduced to the company's processes, tools, and culture. <br />
+                                                <strong>Job Offer:</strong> The chosen candidate is extended an offer, including details on compensation, benefits, and start date. <br />
+                                            </p>
+                                        )
+                                    }
+
+
                                 </div>
                             )}
                         </div>
