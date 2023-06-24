@@ -22,10 +22,10 @@ const Footer = () => {
         <footer className={`${styles.flexCenter} ${styles.paddingY} flex-col sm:px-16 px-6`}>
             <div className={`${styles.flexStart} lg:flex-row flex-col mb-8 w-full`}>
                 <div className="flex-1 flex flex-col justify-start mr-10">
-                    <h2 className="text-3xl font-bold mb-4">Subscribe to our Newsletter</h2>
+                    <h2 className="text-3xl font-bold mb-4">Sign up for our Newsletter</h2>
                     <form className="flex flex-1" onSubmit={handleSubscribe}>
                         <input
-                            className="h-10 w-64 rounded-md border-2 border-gray-700 bg-transparent px-3 py-2 text-md placeholder:text-gray-600 disabled:cursor-not-allowed disabled:opacity-50"
+                            className="h-10 w-64 rounded-md border-2 border-gray-300 bg-transparent px-3 py-2 text-md placeholder:text-gray-600 disabled:cursor-not-allowed disabled:opacity-50"
                             type="email"
                             placeholder="Enter your email"
                             value={email}
@@ -54,9 +54,8 @@ const Footer = () => {
                                 {footerLink.links.map((link, idx) => (
                                     <li
                                         key={idx}
-                                        className={`font-poppins font-medium transition text-lg text-slate-600 hover:text-[#1563cb] cursor-pointer ${
-                                            idx !== footerLink.links.length - 1 ? 'mb-3' : 'mb-0'
-                                        }`}
+                                        className={`font-poppins font-medium transition text-lg text-slate-600 hover:text-[#1563cb] cursor-pointer ${idx !== footerLink.links.length - 1 ? 'mb-3' : 'mb-0'
+                                            }`}
                                     >
                                         <Link to={link.destination}>{link.name}</Link>
                                     </li>
@@ -70,7 +69,7 @@ const Footer = () => {
             </div>
             {/* /footer-top-container */}
 
-            <div className="w-full flex justify-between items-center sm:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
+            <div className="w-full flex justify-between items-center sm:flex-row flex-col pt-6 border-t-[1px] border-gray-300">
                 <h5 className="text-xl font-bold">Evakon Tech</h5>
                 <p className="font-poppins font-normal text-center text-base sm:mb-0 mb-2">
                     Copyright &copy; {new Date().getFullYear()} EvakonTech. All Rights Reserved.

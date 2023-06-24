@@ -76,6 +76,10 @@ export const footerLinks = [
                 name: 'Open Source',
                 destination: '/open-source',
             },
+            {
+                name: 'Collaborate with Us',
+                destination: '/contact',
+            },
         ],
     },
     {
