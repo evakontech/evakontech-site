@@ -67,7 +67,7 @@ const Collaboration = () => {
                     <SwiperSlide>
                         <div className="w-44 h-32  rounded-sm">
                             <img
-                                src="../assets/protozoa.png"
+                                src="../assests/Protozoahostlogo1.png"
                                 alt="Company Name"
                                 className=" w-full object-contain h-full"
                             />

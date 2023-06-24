@@ -101,7 +101,7 @@ const Navbar = () => {
                                 </ul>
 
                                 <div className="mob-nav-contact-btn common-btn-style">
-                                    <Link to="#">
+                                    <Link to="/contact">
                                         <button>Request Project</button>
                                     </Link>
                                 </div>
