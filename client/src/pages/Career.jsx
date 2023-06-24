@@ -105,11 +105,9 @@ const Career = () => {
                 <section className="bg-gray-100 py-10 px-3" id="current-openings">
                     <div className="section-container max-w-6xl mx-auto">
                         <div className="mx-auto max-w-4xl text-center">
-                            <p className="text-sm font-medium text-gray-400">INTERESTED ? WE ARE HIRING</p>
                             <h2 className="mt-3 text-3xl font-semibold leading-tight text-black md:text-4xl">
                                 Current Openings
                             </h2>
-                            <div className="mx-auto inline-flex rounded-full bg-[#1563CB] px-5 p-[0.15rem]"></div>
                         </div>
                         {/* /content */}
 

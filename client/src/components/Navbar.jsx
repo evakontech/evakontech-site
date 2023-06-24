@@ -52,7 +52,8 @@ const Navbar = () => {
             {/* Nav for screen size less than 1280px */}
             <section className="block xl:hidden">
                 <div className="flex justify-between items-center">
-                    <div className="logo font-semibold text-2xl text-white">Evakon Tech</div>
+                    <Link to="/"> <div className="logo font-semibold text-2xl text-white">Evakon Tech</div></Link>
+
 
                     <div className="text-2xl text-white">
                         <button onClick={() => setDisplayMobNav(true)}>

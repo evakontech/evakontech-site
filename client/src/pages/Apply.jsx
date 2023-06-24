@@ -24,7 +24,7 @@ const Apply = () => {
                 <div className="me-auto w-full max-w-2xl ">
                     <h2 className="text-3xl font-semibold text-[#2C72D0]">Apply for the job.</h2>
 
-                    <form action="#" method="POST" className="mt-7">
+                    <form action="https://formspree.io/f/xvonjnjk" method="POST" className="mt-7">
                         <div className="space-y-5">
                             <div>
                                 <label htmlFor="name" className="text-base font-medium text-gray-900">

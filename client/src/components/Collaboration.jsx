@@ -54,7 +54,7 @@ const Collaboration = () => {
                         </div>
                     </SwiperSlide>
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <div className="w-44 h-32  rounded-sm">
                             <img
                                 src="https://edigitalnepal.com/wms/files/ws-profile/1677734208604_ff899a7d-18b2-4baf-977b-5a76abb5fa64.jpg"
@@ -62,7 +62,7 @@ const Collaboration = () => {
                                 className=" w-full object-contain h-full"
                             />
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
 
                     <SwiperSlide>
                         <div className="w-44 h-32  rounded-sm">
