@@ -103,9 +103,9 @@ const About = () => {
                     <div className="w-[320px] hover:translate-y-[-20px] duration-300 cursor-pointer">
                         <div className="w-[90%] m-auto">
                             <img
-                                src="https://theme-land.com/digimx/demo/assets/img/team/thumb_3.jpg"
+                                src="https://i.ibb.co/VQXYcmp/279575077-803739760966008-8880273309683742698-n.jpg"
                                 alt="Developer"
-                                className="w-full"
+                                className="w-[400px]"
                             />
 
                             <div className="mt-5 ps-2">
@@ -121,7 +121,7 @@ const About = () => {
                             <img
                                 src="https://i.ibb.co/GR0wZbp/1651667138404.jpg"
                                 alt="Developer"
-                                className="w-full"
+                                className="w-[400px] "
                             />
 
                             <div className="mt-5 ps-2">
