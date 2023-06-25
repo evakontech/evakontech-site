@@ -7,7 +7,7 @@ const About = () => {
                 <Navbar />
                 <div className="hire-developer-area-text  flex flex-col items-center justify-center text-center">
                     <h1 className="text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold">About Us</h1>
-                    <p className="my-7 text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    {/* <p className="my-7 text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
                 </div>
             </div>
 
@@ -29,11 +29,7 @@ const About = () => {
                             <p className="text-5xl font-bold">we’re your partner in your success</p>
 
                             <p className="my-7">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur maxime labore
-                                recusandae enim dolore, nesciunt, porro molestias ullam eum atque harum! Consectetur,
-                                facilis maxime ratione fugiat laborum omnis atque quae, molestiae rem perspiciatis
-                                veritatis cumque ex minima, numquam quis dicta impedit possimus tempore? Quo sequi
-                                labore, explicabo sit vitae.
+                            Evakon Tech is a leading software company that specializes in providing top-notch digital solutions to businesses of all sizes. Our team of experts is dedicated to helping you achieve your goals and drive your business forward with innovative technology and unparalleled support.
                             </p>
                         </div>
 
@@ -63,15 +59,15 @@ const About = () => {
                         <p className="text-5xl font-bold">Our Goal</p>
 
                         <p className="mt-7">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur maxime labore
-                            recusandae enim dolore, nesciunt, porro molestias ullam eum atque harum! Consectetur,
-                            facilis maxime ratione fugiat laborum omnis atque quae
+                        Our team of experienced professionals works closely with each client to understand their 
+                        unique needs and develop customized solutions that drive growth and success. Whether you’re 
+                        looking to improve your online presence or enhance your customer 
+                        experience, Evakon Tech has the expertise and resources to help you achieve your goals.
                         </p>
 
                         <p className="my-5">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur maxime labore
-                            recusandae enim dolore, nesciunt, porro molestias ullam eum atque harum! Consectetur,
-                            facilis maxime ratione fugiat laborum omnis atque quae.
+                        We’re passionate about technology and dedicated to helping our clients succeed. Let us be your 
+                        partner in success and help you take your business to the next level with our innovative IT solutions
                         </p>
 
                         <button
@@ -146,8 +142,7 @@ const About = () => {
                         looking for the best digital agency & marketing solution?
                     </p>
                     <p className="my-9">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo
-                        ad iste ipsum officiis deleniti asperiores sit.
+                    Discover the power of digital marketing and elevate your business to new heights with our cutting-edge solutions and expert team
                     </p>
                     <div className="common-btn-style">
                         <button className="flex items-center">Contact us</button>
