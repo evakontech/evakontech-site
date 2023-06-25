@@ -132,17 +132,20 @@ const FAQs = () => {
                                         i === 2 && (
 
                                             <p className="text-gray-500">
-                                                To apply, visit our career page, review the job details, prepare your resume and cover letter, and submit them through the specified channel. We'll review and contact shortlisted candidates.
+                                                <strong>Selection:</strong> Candidates are shortlisted based on their resumes and qualifications. <br />
+                                                <strong>Interviews:</strong> Candidates undergo multiple rounds of interviews to assess their skills and fit for the role. <br />
+                                                <strong>Onboarding:</strong> Successful candidates are introduced to the company's processes, tools, and culture. <br />
+                                                <strong>Job Offer:</strong> The chosen candidate is extended an offer, including details on compensation, benefits, and start date. <br />
                                             </p>
                                         )
                                     }
                                     {
                                         i === 2 && (
                                             <p className="text-gray-500">
-                                                <strong>Selection:</strong> Candidates are shortlisted based on their resumes and qualifications. <br />
-                                                <strong>Interviews:</strong> Candidates undergo multiple rounds of interviews to assess their skills and fit for the role. <br />
-                                                <strong>Onboarding:</strong> Successful candidates are introduced to the company's processes, tools, and culture. <br />
-                                                <strong>Job Offer:</strong> The chosen candidate is extended an offer, including details on compensation, benefits, and start date. <br />
+
+
+
+                                                To apply, visit our career page, review the job details, prepare your resume and cover letter, and submit them through the specified channel. We'll review and contact shortlisted candidates.
                                             </p>
 
                                         )
