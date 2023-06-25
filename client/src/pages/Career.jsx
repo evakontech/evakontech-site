@@ -12,7 +12,7 @@ const Career = () => {
                     <Navbar />
                     <div className="hire-developer-area-text  flex flex-col items-center justify-center text-center">
                         <h1 className="text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold">Career</h1>
-                        <p className="my-7 text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p className="my-7 text-white ">Join Our Team: Explore Exciting Opportunities with Us</p>
                     </div>
                 </div>
 

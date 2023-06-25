@@ -7,7 +7,7 @@ const About = () => {
                 <Navbar />
                 <div className="hire-developer-area-text  flex flex-col items-center justify-center text-center">
                     <h1 className="text-4xl mt-15 sm:text-6xl md:text-md text-white font-extrabold">About Us</h1>
-                    {/* <p className="my-7 text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
+                    <p className="my-7 text-white ">Who We Are: Committed to Excellence and Innovation</p>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ const About = () => {
                             <p className="text-5xl font-bold">we’re your partner in your success</p>
 
                             <p className="my-7">
-                            Evakon Tech is a leading software company that specializes in providing top-notch digital solutions to businesses of all sizes. Our team of experts is dedicated to helping you achieve your goals and drive your business forward with innovative technology and unparalleled support.
+                                Evakon Tech is a leading software company that specializes in providing top-notch digital solutions to businesses of all sizes. Our team of experts is dedicated to helping you achieve your goals and drive your business forward with innovative technology and unparalleled support.
                             </p>
                         </div>
 
@@ -59,15 +59,15 @@ const About = () => {
                         <p className="text-5xl font-bold">Our Goal</p>
 
                         <p className="mt-7">
-                        Our team of experienced professionals works closely with each client to understand their 
-                        unique needs and develop customized solutions that drive growth and success. Whether you’re 
-                        looking to improve your online presence or enhance your customer 
-                        experience, Evakon Tech has the expertise and resources to help you achieve your goals.
+                            Our team of experienced professionals works closely with each client to understand their
+                            unique needs and develop customized solutions that drive growth and success. Whether you’re
+                            looking to improve your online presence or enhance your customer
+                            experience, Evakon Tech has the expertise and resources to help you achieve your goals.
                         </p>
 
                         <p className="my-5">
-                        We’re passionate about technology and dedicated to helping our clients succeed. Let us be your 
-                        partner in success and help you take your business to the next level with our innovative IT solutions
+                            We’re passionate about technology and dedicated to helping our clients succeed. Let us be your
+                            partner in success and help you take your business to the next level with our innovative IT solutions
                         </p>
 
                         <button
@@ -95,7 +95,7 @@ const About = () => {
                     <p className="text-5xl font-bold">Our Founders</p>
 
                     <p className="my-7 w-1/2 mx-auto">
-                    Our founders are a team of experienced software developers who are dedicated to providing innovative solutions through Evakon Tech
+                        Our founders are a team of experienced software developers who are dedicated to providing innovative solutions through Evakon Tech
                     </p>
                 </div>
 
@@ -132,7 +132,7 @@ const About = () => {
                         </div>
                     </div>
 
-                   
+
                 </div>
             </div>
 
@@ -142,7 +142,7 @@ const About = () => {
                         looking for the best digital agency & marketing solution?
                     </p>
                     <p className="my-9">
-                    Discover the power of digital marketing and elevate your business to new heights with our cutting-edge solutions and expert team
+                        Discover the power of digital marketing and elevate your business to new heights with our cutting-edge solutions and expert team
                     </p>
                     <div className="common-btn-style">
                         <button className="flex items-center">Contact us</button>

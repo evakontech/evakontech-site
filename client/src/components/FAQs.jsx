@@ -63,10 +63,8 @@ const FAQs = () => {
                             >
                                 {i === 0 && (
                                     <>
-                                        <span className="flex text-lg font-semibold text-black">
-                                        Does your company have internship opportunities?
-                                            
-                                        </span>
+                                        <span className="flex text-lg font-semibold text-black">Does your company have internship opportunities?</span>
+
                                         {expandedIndex === 1 ? (
                                             <ChevronUp className="h-5 w-5 text-gray-500" />
                                         ) : (
@@ -81,7 +79,7 @@ const FAQs = () => {
                                         <span className="flex text-start text-lg font-semibold text-black">
                                             What skills are important for software company vacancies?
 
-                                            
+
                                         </span>
                                         {expandedIndex === 4 ? (
                                             <ChevronUp className="h-5 w-5 text-gray-500" />
@@ -95,7 +93,7 @@ const FAQs = () => {
                                         <span className="flex text-start text-lg font-semibold text-black">
                                             How do I apply for a software company vacancy?
 
-                                                                                    </span>
+                                        </span>
                                         {expandedIndex === 5 ? (
                                             <ChevronUp className="h-5 w-5 text-gray-500" />
                                         ) : (
@@ -113,8 +111,8 @@ const FAQs = () => {
                                     )}
                                     {i === 1 && (
                                         <p className="text-gray-500">
-                                            We look for candidates with strong technical skills, such as proficiency in programming languages 
-                                            and knowledge of operating systems, database management, and network configuration. In addition 
+                                            We look for candidates with strong technical skills, such as proficiency in programming languages
+                                            and knowledge of operating systems, database management, and network configuration. In addition
                                             to technical skills, soft skills such as problem-solving, teamwork, and self-development are also highly valued.
                                         </p>
                                     )}
@@ -127,8 +125,8 @@ const FAQs = () => {
                                             //     <strong>Job Offer:</strong> The chosen candidate is extended an offer, including details on compensation, benefits, and start date. <br />
                                             // </p>
                                             <p className="text-gray-500">
-                                            To apply, visit our career page, review the job details, prepare your resume and cover letter, and submit them through the specified channel. We'll review and contact shortlisted candidates.
-                                        </p>
+                                                To apply, visit our career page, review the job details, prepare your resume and cover letter, and submit them through the specified channel. We'll review and contact shortlisted candidates.
+                                            </p>
                                         )
                                     }
 

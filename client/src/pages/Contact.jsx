@@ -46,7 +46,7 @@ const Contact = () => {
                                     </div>
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Phone Number</h4>
-                                        <p className="text-body-color text-base">(+62)81 414 257 9980</p>
+                                        <p className="text-body-color text-base">(+977) 9816725300</p>
                                     </div>
                                 </div>
                                 <div className="mb-8 flex w-full max-w-[370px]">

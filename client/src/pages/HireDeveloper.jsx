@@ -18,8 +18,7 @@ const HireDeveloper = () => {
                             Hire Developer
                         </h1>
                         <p className="my-5 sm:text-sm  md:text-md text-white ">
-                            Simply Get started hiring the best developers in the following steps
-                        </p>
+                            Unlock Your Project's Potential: Hire Skilled Developers for Seamless Execution                        </p>
                     </div>
                 </div>
             </section>
