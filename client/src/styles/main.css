@@ -72,6 +72,9 @@ html {
     .container-width {
         width: 95%;
     }
+    *{
+        background-image: none !important;
+    }
 }
 
 @media (max-width: 1280px) {
