@@ -11,7 +11,7 @@ const Navbar = () => {
             <section className="hidden xl:block ">
                 <div className="flex justify-between items-center">
                     <Link to="/">
-                        <div className="logo font-semibold text-3xl text-white">Evakon Tech</div>
+                        <div className="logo font-semibold text-3xl text-white">EVAKON</div>
                     </Link>
                     <div className="nav-bar flex items-center gap-x-20">
                         <div>
@@ -52,7 +52,7 @@ const Navbar = () => {
             {/* Nav for screen size less than 1280px */}
             <section className="block xl:hidden">
                 <div className="flex justify-between items-center">
-                    <Link to="/"> <div className="logo font-semibold text-2xl text-white">Evakon Tech</div></Link>
+                    <Link to="/"> <div className="logo font-semibold text-2xl text-white">EVAKON</div></Link>
 
 
                     <div className="text-2xl text-white">
