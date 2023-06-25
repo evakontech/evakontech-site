@@ -50,7 +50,7 @@ const FAQs = () => {
                             </div>
                         )}
                     </div>
-                    {Array.from({ length: 3 }).map((_, i) => (
+                    {Array.from({ length: 4 }).map((_, i) => (
                         <div
                             key={i}
                             className={`cursor-pointer rounded-md border border-gray-400 transition-all duration-200 ${expandedIndex === i + 1 ? 'border-blue-500' : ''
@@ -101,6 +101,18 @@ const FAQs = () => {
                                         )}
                                     </>
                                 )}
+
+                                {i === 3 && (
+                                    <>
+                                        <span className="flex text-lg font-semibold text-black">What is the candidate selection process?</span>
+
+                                        {expandedIndex === 1 ? (
+                                            <ChevronUp className="h-5 w-5 text-gray-500" />
+                                        ) : (
+                                            <ChevronDown className="h-5 w-5 text-gray-500" />
+                                        )}
+                                    </>
+                                )}
                             </button>
                             {expandedIndex === i + 1 && (
                                 <div className="px-4 pb-5 sm:px-6 sm:pb-6">
@@ -118,18 +130,23 @@ const FAQs = () => {
                                     )}
                                     {
                                         i === 2 && (
-                                            // <p className="text-gray-500">
-                                            //     <strong>Selection:</strong> Candidates are shortlisted based on their resumes and qualifications. <br />
-                                            //     <strong>Interviews:</strong> Candidates undergo multiple rounds of interviews to assess their skills and fit for the role. <br />
-                                            //     <strong>Onboarding:</strong> Successful candidates are introduced to the company's processes, tools, and culture. <br />
-                                            //     <strong>Job Offer:</strong> The chosen candidate is extended an offer, including details on compensation, benefits, and start date. <br />
-                                            // </p>
+
                                             <p className="text-gray-500">
                                                 To apply, visit our career page, review the job details, prepare your resume and cover letter, and submit them through the specified channel. We'll review and contact shortlisted candidates.
                                             </p>
                                         )
                                     }
+                                    {
+                                        i === 2 && (
+                                            <p className="text-gray-500">
+                                                <strong>Selection:</strong> Candidates are shortlisted based on their resumes and qualifications. <br />
+                                                <strong>Interviews:</strong> Candidates undergo multiple rounds of interviews to assess their skills and fit for the role. <br />
+                                                <strong>Onboarding:</strong> Successful candidates are introduced to the company's processes, tools, and culture. <br />
+                                                <strong>Job Offer:</strong> The chosen candidate is extended an offer, including details on compensation, benefits, and start date. <br />
+                                            </p>
 
+                                        )
+                                    }
 
                                 </div>
                             )}
