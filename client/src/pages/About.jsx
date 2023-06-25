@@ -96,11 +96,10 @@ const About = () => {
 
             <div className="container-width py-16">
                 <div className="text-center mb-14">
-                    <p className="text-5xl font-bold">Our developers</p>
+                    <p className="text-5xl font-bold">Our Founders</p>
 
                     <p className="my-7 w-1/2 mx-auto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur maxime labore recusandae
-                        enim dolore, nesciunt, porro molestias ullam eum atque harum!
+                    Our founders are a team of experienced software developers who are dedicated to providing innovative solutions through Evakon Tech
                     </p>
                 </div>
 
@@ -121,85 +120,23 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="w-[320px] hover:translate-y-[-20px] duration-300 cursor-pointer">
+                    <div className="w-[320px] rounded-md hover:translate-y-[-20px] duration-300 cursor-pointer">
                         <div className="w-[90%] m-auto">
                             <img
-                                src="https://theme-land.com/digimx/demo/assets/img/team/thumb_3.jpg"
+                                src="https://i.ibb.co/GR0wZbp/1651667138404.jpg"
                                 alt="Developer"
                                 className="w-full"
                             />
 
                             <div className="mt-5 ps-2">
-                                <p className="text-lg font-bold">John Doe</p>
+                                <p className="text-lg font-bold">Sajan Dawadi</p>
 
-                                <p className="text-sm font-semibold">WEB DEVELOPER</p>
+                                <p className="text-sm font-semibold">Co-Founder</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="w-[320px] hover:translate-y-[-20px] duration-300 cursor-pointer">
-                        <div className="w-[90%] m-auto">
-                            <img
-                                src="https://theme-land.com/digimx/demo/assets/img/team/thumb_3.jpg"
-                                alt="Developer"
-                                className="w-full"
-                            />
-
-                            <div className="mt-5 ps-2">
-                                <p className="text-lg font-bold">John Doe</p>
-
-                                <p className="text-sm font-semibold">WEB DEVELOPER</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-[320px] hover:translate-y-[-20px] duration-300 cursor-pointer">
-                        <div className="w-[90%] m-auto">
-                            <img
-                                src="https://theme-land.com/digimx/demo/assets/img/team/thumb_3.jpg"
-                                alt="Developer"
-                                className="w-full"
-                            />
-
-                            <div className="mt-5 ps-2">
-                                <p className="text-lg font-bold">John Doe</p>
-
-                                <p className="text-sm font-semibold">WEB DEVELOPER</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-[320px] hover:translate-y-[-20px] duration-300 cursor-pointer">
-                        <div className="w-[90%] m-auto">
-                            <img
-                                src="https://theme-land.com/digimx/demo/assets/img/team/thumb_3.jpg"
-                                alt="Developer"
-                                className="w-full"
-                            />
-
-                            <div className="mt-5 ps-2">
-                                <p className="text-lg font-bold">John Doe</p>
-
-                                <p className="text-sm font-semibold">WEB DEVELOPER</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-[320px] hover:translate-y-[-20px] duration-300 cursor-pointer">
-                        <div className="w-[90%] m-auto">
-                            <img
-                                src="https://theme-land.com/digimx/demo/assets/img/team/thumb_3.jpg"
-                                alt="Developer"
-                                className="w-full"
-                            />
-
-                            <div className="mt-5 ps-2">
-                                <p className="text-lg font-bold">John Doe</p>
-
-                                <p className="text-sm font-semibold">WEB DEVELOPER</p>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
 
