@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { LuSend } from 'react-icons/lu';
+import EvakonLogoWhite from '../assets/white-logo.png';
 
 const Navbar = () => {
     const [displayMobNav, setDisplayMobNav] = useState(false);
@@ -10,9 +11,13 @@ const Navbar = () => {
             {/* Nav for desktop(screen size greater then 1280px) */}
             <section className="hidden xl:block ">
                 <div className="flex justify-between items-center">
-                    <Link to="/">
-                        <div className="logo font-semibold text-3xl text-white">EVAKON</div>
-                    </Link>
+                    <div className='logo'>
+                        <Link to="/">
+                            {/* <div className="logo font-semibold text-3xl text-white">EVAKON</div>
+                         */}
+                            <img src={EvakonLogoWhite} alt="" className='h-12' />
+                        </Link>
+                    </div>
                     <div className="nav-bar flex items-center gap-x-20">
                         <div>
                             <ul className="flex gap-x-7 text-lg font-normal text-white">
@@ -52,9 +57,15 @@ const Navbar = () => {
             {/* Nav for screen size less than 1280px */}
             <section className="block xl:hidden">
                 <div className="flex justify-between items-center">
-                    <Link to="/"> <div className="logo font-semibold text-2xl text-white">EVAKON</div></Link>
+                    {/* <Link to="/"> <div className="logo font-semibold text-2xl text-white">EVAKON</div></Link> */}
 
-
+                    <div className='logo'>
+                        <Link to="/">
+                            {/* <div className="logo font-semibold text-3xl text-white">EVAKON</div>
+                         */}
+                            <img src={EvakonLogoWhite} alt="" className='h-8 md:h-10' />
+                        </Link>
+                    </div>
                     <div className="text-2xl text-white">
                         <button onClick={() => setDisplayMobNav(true)}>
                             <i className="fa-solid fa-bars"></i>

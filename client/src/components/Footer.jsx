@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { useForm } from '@formspree/react';
 import { Link } from 'react-router-dom';
 
+import EvakonLogoBlack from '../assets/black-logo.png';
+
 const Footer = () => {
     const [email, setEmail] = useState('');
     const [state, handleSubmit] = useForm('xvonjnjk');
@@ -70,7 +72,15 @@ const Footer = () => {
             {/* /footer-top-container */}
 
             <div className="w-full flex justify-between items-center sm:flex-row flex-col pt-6 border-t-[1px] border-gray-300">
-                <h5 className="text-xl font-bold">Evakon Tech</h5>
+                {/* <h5 className="text-xl font-bold">Evakon Tech</h5>
+                 */}
+                <div className='logo mb-3 lg:mb-0'>
+                    <Link to="/">
+                        {/* <div className="logo font-semibold text-3xl text-white">EVAKON</div>
+                         */}
+                        <img src={EvakonLogoBlack} alt="" className='h-10 lg:h-12' />
+                    </Link>
+                </div>
                 <p className="font-poppins font-normal text-center text-base sm:mb-0 mb-2">
                     Copyright &copy; {new Date().getFullYear()} EvakonTech. All Rights Reserved.
                 </p>
