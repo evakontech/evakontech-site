@@ -129,7 +129,7 @@ const FAQs = () => {
                                         </p>
                                     )}
                                     {
-                                        i === 2 && (
+                                        i === 3 && (
 
                                             <p className="text-gray-500">
                                                 <strong>Selection:</strong> Candidates are shortlisted based on their resumes and qualifications. <br />
