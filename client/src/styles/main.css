@@ -17,6 +17,7 @@ html {
     width: 80%;
 }
 
+
 .common-btn-style button {
     border: 2px solid white;
     padding: 10px 0;
@@ -156,7 +157,7 @@ html {
     background-image: url('../assets/banner.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 30vh;
+    height: 37vh;
     box-sizing: border-box;
     position: relative;
 }
