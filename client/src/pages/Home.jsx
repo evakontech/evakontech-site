@@ -5,6 +5,10 @@ const Home = () => {
     return (
         <>
             <Welcome />
+            <MessengerCustomerChat
+                pageId="111903781926107"
+                appId="223269043853889"
+            />
             <Collaboration />
             <Feature />
             <Services />
@@ -12,10 +16,7 @@ const Home = () => {
             <Testimonials />
             <TrustBox />
             <CTA />
-            <MessengerCustomerChat
-                pageId="111903781926107"
-                appId="223269043853889"
-            />
+
             <Footer />
         </>
     );
