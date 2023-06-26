@@ -13,12 +13,10 @@ const Home = () => {
             <Testimonials />
             <TrustBox />
             <CTA />
-            <div id="fb-root">
-                <MessengerCustomerChat
-                    pageId="111903781926107"
-                    appId="223269043853889"
-                />
-            </div>
+            <MessengerCustomerChat
+                pageId="111903781926107"
+                appId="223269043853889"
+            />
             <Footer />
         </>
     );
