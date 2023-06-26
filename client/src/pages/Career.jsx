@@ -24,17 +24,11 @@ const Career = () => {
                                 <span className="text-[#1563CB] ml-1">Evakon Tech Team</span>
                             </h1>
 
-                            <p className="text-slate-900 text-base mb-4 md:text-lg font-medium ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iusto repudiandae
-                                eligendi culpa recusandae tenetur beatae, nobis iste.
+                            <p className="text-slate-900 text-base mb-4 md:text-lg font-bold ">
+                                Elevating Technology, Inspiring the Future
                             </p>
                             <p className="text-slate-600 text-sm md:text-base ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam doloremque
-                                animi reiciendis commodi vel tenetur repellat quae, delectus debitis odio aut enim
-                                corrupti porro nostrum quam totam itaque tempore non exercitationem consequatur sed at!
-                                Placeat molestiae exercitationem suscipit pariatur corrupti, odio incidunt totam a
-                                voluptates odit alias facilis. Blanditiis repellendus sunt ullam rem eveniet atque aut
-                                consequatur quam deleniti fuga ab.
+                                We strive to be trusted partners, exceptional engineers, and innovative thinkers for our clients. Our goal is to achieve greatness by working with brilliant individuals, taking pride in our craftsmanship, and making a meaningful impact in various industries. We're just getting started. If you have the coding, design, and problem-solving skills we're looking for, please continue reading.
                             </p>
 
                             <div className="flex gap-5 flex-wrap justify-center lg:justify-start items-center mt-10">
@@ -84,15 +78,12 @@ const Career = () => {
 
                             <div className="text-slate-600 text-sm md:text-base">
                                 <p className="mb-2">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam
-                                    doloremque animis id tempore possimus ducimus animi minus!
+                                    Are you passionate about cutting-edge technologies and innovative solutions? Do you thrive in a collaborative and fast-paced environment? If so, we invite you to be a part of our team.
+
+
                                 </p>
                                 <p>
-                                    Reiciendis commodi vel tenetur repellat quae, delectus nostrum quam totam itaque
-                                    tempore non exercitationem consequatur sed at! Placeat molestiae exercitationem
-                                    suscipit pariatur corrupti, odio incidunt totam a voluptates odit alias facilis.
-                                    Blanditiis repellendus sunt ullam rem eveniet atque aut consequatur quam deleniti
-                                    fuga ab.
+                                    At Evakon Tech, we are a dynamic and forward-thinking organization dedicated to pushing boundaries and revolutionizing the industry. As a member of our team, you will have the opportunity to work with talented professionals who share a common goal of delivering exceptional results.
                                 </p>
                             </div>
                         </div>

@@ -17,7 +17,7 @@ const About = () => {
                     {/* col 1 */}
                     <div>
                         <img
-                            src="https://img.freepik.com/free-vector/business-team-communicating-via-social-media_74855-5439.jpg?t=st=1686815150~exp=1686815750~hmac=e6d3864311341991c56c9b3ea12c0536cff87b71fc61467366d013f51a7241b8"
+                            src="https://img.freepik.com/free-vector/feedback-concept-illustration_114360-5044.jpg?w=740&t=st=1687803693~exp=1687804293~hmac=39ddc09575f7efd82c4828fc5e8d45dc01dfdad49af3c9e6da7eda30af604b76"
                             alt="About Us"
                             className="w-full"
                         />
@@ -34,18 +34,18 @@ const About = () => {
                         </div>
 
                         <div className="flex gap-6 flex-wrap justify-center lg:justify-start">
-                            <div className="border border-solid border-[#BE63F9] w-40 py-4 text-center rounded-2xl ">
-                                <p className="text-4xl text-[#BE63F9] font-bold">10+</p>
+                            <div className="border border-solid border-[#1563cb] w-40 py-4 text-center rounded-2xl ">
+                                <p className="text-4xl text-[#1563cb] font-bold">10+</p>
                                 <p className="font-semibold text-xs mt-2">HAPPY CLIENTS</p>
                             </div>
 
-                            <div className="border border-solid border-[#26C6DA] w-40 py-4 text-center rounded-2xl">
-                                <p className="text-4xl text-[#26C6DA] font-bold">5+</p>
+                            <div className="border border-solid border-[#1563cb] w-40 py-4 text-center rounded-2xl">
+                                <p className="text-4xl text-[#1563cb] font-bold">5+</p>
                                 <p className="font-semibold text-xs mt-2">PROJECT DELIVERED</p>
                             </div>
 
-                            <div className="border border-solid border-[#FC573C] w-40 py-4 text-center rounded-2xl">
-                                <p className="text-4xl text-[#FC573C] font-bold">1+</p>
+                            <div className="border border-solid border-[#1563cb] w-40 py-4 text-center rounded-2xl">
+                                <p className="text-4xl text-[#1563cb] font-bold">1+</p>
                                 <p className="font-semibold text-xs mt-2">YEARS EXPERIENCE</p>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="bg-gray-100">
+            <div className="">
                 <div className="container-width grid grid-cols-1 justify-center lg:justify-start lg:grid-cols-2 gap-12 items-center py-16">
                     <div className="text-center lg:text-left">
                         <p className="text-5xl font-bold">Our Goal</p>
@@ -80,7 +80,7 @@ const About = () => {
 
                     <div>
                         <img
-                            src="https://www.creativefabrica.com/wp-content/uploads/2022/12/07/Business-team-goals-concept-illustration-Graphics-50805046-1-580x386.png"
+                            src="https://img.freepik.com/free-vector/business-people-working-setting-company-target_1262-20616.jpg?w=1380&t=st=1687803276~exp=1687803876~hmac=f531481c4060bd758eac05056614856b4236bdb2068a2abb5d3db34cfb28668a"
                             alt="About Us"
                             className="w-full"
                         />
@@ -94,7 +94,7 @@ const About = () => {
                 <div className="text-center mb-14">
                     <p className="text-5xl font-bold">Our Founders</p>
 
-                    <p className="my-7 w-1/2 mx-auto">
+                    <p className="my-7 w-3/4 lg:w-1/2 mx-auto">
                         Our founders are a team of experienced software developers who are dedicated to providing innovative solutions through Evakon Tech
                     </p>
                 </div>

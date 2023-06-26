@@ -39,8 +39,8 @@ const HireDeveloper = () => {
                         </div>
                         <h3 className="mt-8 text-lg font-semibold text-black">Define Your Requirement</h3>
                         <p className="mt-4 text-sm text-gray-600">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit.
+
+                            Provide and communicate project goals, features, and vision to ensure accurate developer understanding.
                         </p>
                     </div>
                     <div>
@@ -49,8 +49,7 @@ const HireDeveloper = () => {
                         </div>
                         <h3 className="mt-8 text-lg font-semibold text-black"> Choose Tech Stack</h3>
                         <p className="mt-4 text-sm text-gray-600">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit.
+                            Make informed decisions by selecting technologies aligned with project needs: scalability, compatibility, performance.
                         </p>
                     </div>
                     <div>
@@ -59,8 +58,7 @@ const HireDeveloper = () => {
                         </div>
                         <h3 className="mt-8 text-lg font-semibold text-black">Select the Developers</h3>
                         <p className="mt-4 text-sm text-gray-600">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit.
+                            Choose a competent team by reviewing developers' skills, experience, past projects, and qualifications.
                         </p>
                     </div>
                     <div>
@@ -69,8 +67,8 @@ const HireDeveloper = () => {
                         </div>
                         <h3 className="mt-8 text-lg font-semibold text-black">Select the Timeframe</h3>
                         <p className="mt-4 text-sm text-gray-600">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit.
+
+                            Collaborate with developers to set a realistic timeline, estimating development phases for smooth progress and realistic expectations.
                         </p>
                     </div>
                 </div>
