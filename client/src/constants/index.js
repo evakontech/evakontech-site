@@ -86,8 +86,8 @@ export const footerLinks = [
         title: 'Connection',
         links: [
             {
-                name: 'Blog',
-                destination: '/blog',
+                name: 'Instagram',
+                destination: 'https://www.instagram.com/evakon.tech/',
             },
             {
                 name: 'LinkedIn',
@@ -95,7 +95,7 @@ export const footerLinks = [
             },
             {
                 name: 'Facebook',
-                destination: 'https://www.facebook.com/',
+                destination: 'https://www.facebook.com/evakontech.nepal',
             },
             {
                 name: 'Contact Us',
