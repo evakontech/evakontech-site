@@ -5,7 +5,7 @@ const Services = () => (
 
         <div className="w-[90%]  md:w-3/4 lg:w-3/5 m-auto text-center">
             <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl">
-                we provide the best digital services
+                we provide the <span className='text-[#1563cb]'>Best Digital Services</span>
             </h2>
             <p className="mt-9 text-slate-600">
                 We connect people and technology, helping you envision, plan, and bring automation to life with great business solutions.

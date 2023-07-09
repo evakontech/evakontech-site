@@ -21,9 +21,8 @@ const Welcome = () => {
                         Crafting Intuitive <span className="stroke-text"> Interfaces </span>
                     </h1>
                     <p className="my-7 text-white ">
-                        Your ultimate partner in remote excellence. We're on a mission to revolutionize the software
-                        industry by promoting remote work, fostering collaboration, and igniting innovation. Step into a
-                        world of limitless possibilities and shape the future together!
+                        We're on a mission to promotize the software
+                        industry by pushing remote work culture, fostering collaboration, and igniting innovation.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4 common-btn-style">
 
