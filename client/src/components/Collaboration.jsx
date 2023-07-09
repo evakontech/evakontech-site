@@ -45,10 +45,10 @@ const Collaboration = () => {
                     }}
                 >
                     <SwiperSlide>
-                        <div className="w-44 h-16 mt-6  rounded-sm">
+                        <div className="w-44 h-16 mt-8  rounded-sm">
                             <img
-                                src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/321763161_705179860949110_3232048304635189118_n.jpg?_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=b_742dMtdxMAX_uoARd&_nc_ht=scontent.fktm16-1.fna&oh=00_AfAKYt8FIVR2yqv99tQ1ghijGSbSpf8bzqdI0Ok8avnILA&oe=64A973A5"
-                                alt="ProtozoaHost Logo"
+                                src="https://imagedelivery.net/pO9dH1lJbG1aBymg4M2eXA/e0c1e6df-76a9-40e6-910c-fb659d941800/public"
+                                alt="Lancemeup Logo"
                                 className=" w-full object-contain h-full"
                             />
                         </div>
@@ -85,7 +85,7 @@ const Collaboration = () => {
                     <SwiperSlide>
                         <div className="w-44 h-20 mt-5  rounded-sm">
                             <img
-                                src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/295811344_170850822117576_6131752348213846873_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3HMf1-DQZicAX93nas4&_nc_ht=scontent.fktm16-1.fna&oh=00_AfCZmin6UaAPh5k6gjgFRIgNkVitNSe4Sz4zzsrars1a0Q&oe=64A5EB21"
+                                src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/295811344_170850822117576_6131752348213846873_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ldtsREvy9ysAX_Jfdqt&_nc_ht=scontent.fktm16-1.fna&oh=00_AfBpN3MutK5zzPgQRm3YMtnYOpW9QQPxRaMZJ1N_WmNGNA&oe=64AFCE61"
                                 alt="RONT Logo"
                                 className=" w-full object-contain h-full"
                             />
