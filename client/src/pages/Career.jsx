@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import { Navbar, Footer, SelectionProcess } from '../components';
 import { careerHero, careerTeam } from '../assets';
-import openings from '../constants/opening.data.json';
+// import openings from '../constants/opening.data.json';
 
 const Career = () => {
     return (
