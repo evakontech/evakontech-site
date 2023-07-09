@@ -38,7 +38,7 @@ const Testimonials = () => {
             <section>
                 <div className="w-[90%]  md:w-3/4 lg:w-3/5 m-auto text-center">
                     <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl">
-                        What our client says?
+                        Hear From Our Clients & Partners
                     </h2>
                 </div>
                 <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -48,23 +48,20 @@ const Testimonials = () => {
                                 <blockquote className="bg-gray-100 p-8">
                                     <div className="flex items-center gap-4">
                                         <img
-                                            alt="Dog"
-                                            src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                                            alt="ProtozoaHost"
+                                            src="https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png"
                                             className="h-16 w-16 rounded-full object-cover"
                                         />
 
                                         <div className="text-sm">
-                                            <p className="font-medium">Bark Dagleish</p>
-                                            <p className="mt-1">Head of Barketing</p>
+                                            <p className="font-medium">Anand Shah</p>
+                                            <p className="mt-1">Founder</p>
                                         </div>
                                     </div>
 
                                     <p className="relative mt-4 text-gray-500">
                                         <span className="text-xl">&ldquo;</span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni assumenda
-                                        officiis sit amet itaque eveniet accusantium corporis tempora, soluta
-                                        perspiciatis rerum, ratione animi nemo inventore repellat, commodi in esse
-                                        quisquam.
+                                        Protozoahost, a prominent web hosting company in Nepal, recently discovered Evakon Tech, a remarkable software company. We were thoroughly impressed by their offerings! Evakon Tech provided us with a wealth of talented professionals.
                                         <span className="text-xl">&rdquo;</span>
                                     </p>
                                 </blockquote>
@@ -74,23 +71,20 @@ const Testimonials = () => {
                                 <blockquote className="bg-gray-100 p-8">
                                     <div className="flex items-center gap-4">
                                         <img
-                                            alt="Dog"
-                                            src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                                            alt="ProtozoaHost"
+                                            src="https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png"
                                             className="h-16 w-16 rounded-full object-cover"
                                         />
 
                                         <div className="text-sm">
-                                            <p className="font-medium">Bark Dagleish</p>
-                                            <p className="mt-1">Head of Barketing</p>
+                                            <p className="font-medium">Anand Shah</p>
+                                            <p className="mt-1">Founder</p>
                                         </div>
                                     </div>
 
                                     <p className="relative mt-4 text-gray-500">
                                         <span className="text-xl">&ldquo;</span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni assumenda
-                                        officiis sit amet itaque eveniet accusantium corporis tempora, soluta
-                                        perspiciatis rerum, ratione animi nemo inventore repellat, commodi in esse
-                                        quisquam.
+                                        Protozoahost, a prominent web hosting company in Nepal, recently discovered Evakon Tech, a remarkable software company. We were thoroughly impressed by their offerings! Evakon Tech provided us with a wealth of talented professionals.
                                         <span className="text-xl">&rdquo;</span>
                                     </p>
                                 </blockquote>
@@ -100,49 +94,20 @@ const Testimonials = () => {
                                 <blockquote className="bg-gray-100 p-8">
                                     <div className="flex items-center gap-4">
                                         <img
-                                            alt="Dog"
-                                            src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                                            alt="ProtozoaHost"
+                                            src="https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png"
                                             className="h-16 w-16 rounded-full object-cover"
                                         />
 
                                         <div className="text-sm">
-                                            <p className="font-medium">Bark Dagleish</p>
-                                            <p className="mt-1">Head of Barketing</p>
+                                            <p className="font-medium">Anand Shah</p>
+                                            <p className="mt-1">Founder</p>
                                         </div>
                                     </div>
 
                                     <p className="relative mt-4 text-gray-500">
                                         <span className="text-xl">&ldquo;</span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni assumenda
-                                        officiis sit amet itaque eveniet accusantium corporis tempora, soluta
-                                        perspiciatis rerum, ratione animi nemo inventore repellat, commodi in esse
-                                        quisquam.
-                                        <span className="text-xl">&rdquo;</span>
-                                    </p>
-                                </blockquote>
-                            </div>
-
-                            <div className="swiper-slide">
-                                <blockquote className="bg-gray-100 p-8">
-                                    <div className="flex items-center gap-4">
-                                        <img
-                                            alt="Dog"
-                                            src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
-                                            className="h-16 w-16 rounded-full object-cover"
-                                        />
-
-                                        <div className="text-sm">
-                                            <p className="font-medium">Bark Dagleish</p>
-                                            <p className="mt-1">Head of Barketing</p>
-                                        </div>
-                                    </div>
-
-                                    <p className="relative mt-4 text-gray-500">
-                                        <span className="text-xl">&ldquo;</span>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni assumenda
-                                        officiis sit amet itaque eveniet accusantium corporis tempora, soluta
-                                        perspiciatis rerum, ratione animi nemo inventore repellat, commodi in esse
-                                        quisquam.
+                                        Protozoahost, a prominent web hosting company in Nepal, recently discovered Evakon Tech, a remarkable software company. We were thoroughly impressed by their offerings! Evakon Tech provided us with a wealth of talented professionals.
                                         <span className="text-xl">&rdquo;</span>
                                     </p>
                                 </blockquote>

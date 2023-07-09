@@ -7,12 +7,12 @@ const CTA = () => (
                 <div className="isolate flex justify-center -space-x-2">
                     <img
                         className="relative z-30 inline-block h-14 w-14 rounded-full ring-4 ring-white"
-                        src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
+                        src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/279575077_803739760966008_8880273309683742698_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-tiqfOrN0GkAX_ugWNn&_nc_ht=scontent.fktm16-1.fna&oh=00_AfAYZLjxxktf_4txwInrZ4sEfa_qn0ozsNomYlhyQAilOQ&oe=64AFACB5"
                         alt="Dan_Abromov"
                     />
                     <img
                         className="relative z-20 inline-block h-14 w-14 rounded-full ring-4 ring-white"
-                        src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/smokhfs2uevnppc2bmwl"
+                        src="https://i.ibb.co/GR0wZbp/1651667138404.jpg"
                         alt="Guillermo_Rauch"
                     />
                     <img
