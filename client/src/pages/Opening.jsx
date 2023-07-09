@@ -71,6 +71,7 @@ const Opening = () => {
                                 {currentOpening.responsibilities.map((responsibility, idx) => (
                                     <li className="text-slate-800 text-[1.1rem]" key={idx}>
                                         {responsibility}
+
                                     </li>
                                 ))}
                             </ul>
