@@ -1,6 +1,6 @@
-import { Navbar, BusinessGrowth, Projects, Footer } from '../components';
+import { Navbar, BusinessGrowth, Products, Footer } from '../components';
 
-const Portfolio = () => {
+const Product = () => {
     return (
         <section className="hire-developer-area-wrapper">
             <div className="hire-developer-area-overlay-bg ">
@@ -11,10 +11,10 @@ const Portfolio = () => {
                 </div>
             </div>
             <BusinessGrowth />
-            <Projects />
+            <Products />
             <Footer />
         </section>
     );
 };
 
-export default Portfolio;
+export default Product;
