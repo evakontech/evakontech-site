@@ -93,14 +93,13 @@ const Career = () => {
                 </section>
                 {/* about-company-section */}
 
-                <section className="bg-gray-100 py-10 px-3" id="current-openings">
+                {/* <section className="bg-gray-100 py-10 px-3" id="current-openings">
                     <div className="section-container max-w-6xl mx-auto">
                         <div className="mx-auto max-w-4xl text-center">
                             <h2 className="mt-3 text-3xl font-semibold leading-tight text-black md:text-4xl">
                                 Current Openings
                             </h2>
                         </div>
-                        {/* /content */}
 
                         <table className="bg-white w-full mt-10 mb-10 py-12 px-5">
                             <thead>
@@ -133,23 +132,20 @@ const Career = () => {
                                 ))}
                             </tbody>
                         </table>
-                        {/* /openings-container */}
                     </div>
-                    {/* /section-container */}
-                </section>
-                {/* /openings-section */}
+                </section> */}
 
-                <div className="bg-[#1662D0] py-24 text-white text-center">
+                <div className="bg-[#1662D0] py-24 text-white text-center" id="current-openings">
                     <div className="w-4/5 md:w-3/4 lg:w-3/5 m-auto">
                         <p className="text-4xl sm:text-6xl font-extrabold">Join and Experience Evakon Remote Life</p>
                         <p className="my-9">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae
-                            quo ad iste ipsum officiis deleniti asperiores sit.
+                            Unleash your potential, ignite innovation, and join our visionary team to create a resonating future together.
                         </p>
                         <div className="common-btn-style">
-                            <Link to="/career">
+                            {/* /openings-section */}
+                            <a href='https://forms.gle/ETS8gR2emPSn3Njd7'>
                                 <button className="flex items-center">Join Team</button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
